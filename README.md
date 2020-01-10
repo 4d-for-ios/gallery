@@ -1,2 +1,5 @@
-# gallery
-contains list of repository to expose into extension gallery
+# Extension gallery
+
+The extension gallery project contains list of curated github projects.
+
+To contribute read the [contribution guide](.github/CONTRIBUTING.md)
