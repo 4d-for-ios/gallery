@@ -23,20 +23,18 @@
         >Is your project is ready for prime time? Submit it.</p>
 
         <div
-            class="text-gray-light pl-3 pr-2 py-2 bg-gray-light border-top"
-            style="margin-top: auto; border-bottom-left-radius: 0; border-bottom-right-radius: 0;"
-          >
-            <div class="d-flex flex-row">
-              <div
-                class="col-3 tooltipped tooltipped-s"
-                aria-label="247 installations"
-              >
+          class="text-gray-light pl-3 pr-2 py-2 bg-gray-light border-top"
+          style="margin-top: auto; border-bottom-left-radius: 0; border-bottom-right-radius: 0;"
+        >
+          <div class="d-flex flex-row">
+            <div class="col-3 tooltipped tooltipped-s" aria-label="247 installations">
               <a
-          href="https://github.com/4d-for-ios/gallery/blob/master/.github/CONTRIBUTING.md">Contributing_guide</a>
+                href="https://github.com/4d-for-ios/gallery/blob/master/.github/CONTRIBUTING.md"
+              ><font-awesome-icon icon="question-circle"/> Guide</a>
               <div class="col-9 text-right"></div>
             </div>
           </div>
-          </div>
+        </div>
       </div>
     </div>
   </div>
