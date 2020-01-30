@@ -1,0 +1,39 @@
+name: update
+
+on:
+  schedule:
+    - cron:  '0 * * * *'
+
+jobs:
+  update:
+    name: update
+    runs-on: macOS-latest
+    steps:
+      - name: ⬇️ Checkout
+        uses: actions/checkout@master
+        with:
+          fetch-depth: 1
+      - name: 🌊 Install gallery-workflow
+        run: |
+          curl -L https://github.com/$GITHUB_REPOSITORY-workflow/releases/latest/download/gallery-workflow.zip --output gallery-workflow.zip
+          unzip gallery-workflow.zip
+          rm gallery-workflow.zip
+          if [ -f .build/release/gallery-workflow ]; then
+            echo "gallery-workflow installed"
+          else
+            echo "gallery-workflow cannot be downloaded using url https://github.com/$GITHUB_REPOSITORY-workflow/releases/latest/download/gallery-workflow.zip"
+            exit 1
+          fi
+      - name: 🏷 Update releases
+        run: |
+          echo "check new topics"
+          .build/release/gallery-workflow --githubToken "${{ secrets.GITHUB_TOKEN }}"
+      - name: 🧹 Format
+        run: |
+          brew install yq
+          ./outputpretty.sh
+      - name: ⬆️ Push
+        run: |
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -a -m "🔄 Update"
+          ./push.sh "master" "${{ secrets.GITHUB_TOKEN }}"
