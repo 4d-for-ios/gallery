@@ -15,6 +15,7 @@ jobs:
           fetch-depth: 1
       - name: 🌊 Install gallery-workflow
         run: |
+          rm -f .build/release/gallery-workflow
           curl -L https://github.com/$GITHUB_REPOSITORY-workflow/releases/latest/download/gallery-workflow.zip --output gallery-workflow.zip
           unzip gallery-workflow.zip
           rm gallery-workflow.zip
@@ -26,14 +27,17 @@ jobs:
           fi
       - name: 🏷 Update releases
         run: |
-          echo "check new topics"
           .build/release/gallery-workflow --githubToken "${{ secrets.GITHUB_TOKEN }}"
+      - name: 🥙 Aggregate by topics
+        run: |
+          .build/release/gallery-workflow aggregate
       - name: 🧹 Format
         run: |
           brew install yq
-          ./outputpretty.sh
+          ./.github/outputpretty.sh
       - name: ⬆️ Push
         run: |
+          rm -f .build/release/gallery-workflow
           git add .
           git diff --quiet && git diff --staged --quiet || git commit -a -m "🔄 Update"
-          ./push.sh "master" "${{ secrets.GITHUB_TOKEN }}"
+          ./.github/push.sh "master" "${{ secrets.GITHUB_TOKEN }}"
