@@ -32,6 +32,18 @@ module.exports = {
         options: {
           name: "[name].[ext]?[hash]"
         }
+      },
+      {
+        test: /\.css$/,
+        use: ["vue-style-loader", "css-loader"]
+      },
+      {
+        test: /\.scss$/,
+        use: ["vue-style-loader", "css-loader", "sass-loader"]
+      },
+      {
+        test: /\.sass$/,
+        use: ["vue-style-loader", "css-loader", "sass-loader"]
       }
     ]
   },
@@ -47,8 +59,15 @@ module.exports = {
   performance: {
     hints: false
   },
+  optimization: {
+    moduleIds: 'hashed'
+  },
   devtool: "#eval-source-map"
 };
+
+module.exports.plugins = (module.exports.plugins || []).concat([
+  new VueLoaderPlugin()
+]);
 
 if (process.env.NODE_ENV === "production") {
   module.exports.devtool = "#source-map";
@@ -58,36 +77,9 @@ if (process.env.NODE_ENV === "production") {
       "process.env": {
         NODE_ENV: '"production"'
       }
-    }),
-    new webpack.optimize.UglifyJsPlugin({
-      sourceMap: true,
-      compress: {
-        warnings: false
-      }
-    }),
-    new webpack.LoaderOptionsPlugin({
-      minimize: true
     })
   ]);
-}
 
-if (process.env.NODE_ENV === "development") {
-  module.exports.plugins = (module.exports.plugins || []).concat([
-    new VueLoaderPlugin()
-  ]);
-  module.exports.module.rules = (module.exports.module.rules || []).concat([
-    {
-      test: /\.css$/,
-      use: ["vue-style-loader", "css-loader"]
-    },
-    {
-      test: /\.scss$/,
-      use: ["vue-style-loader", "css-loader", "sass-loader"]
-    },
-    {
-      test: /\.sass$/,
-      use: ["vue-style-loader", "css-loader", "sass-loader"]
-    }
-  ]);
+ 
   module.exports.devtool = "#eval-source-map";
-}
+} 

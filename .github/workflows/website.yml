@@ -1,9 +1,9 @@
-name: website
+name: 🌍 website
 
 on:
   push:
-    - website
-
+    paths:
+    - 'website/**'
 jobs:
   update:
     name: website
@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@master
         with:
           fetch-depth: 1
-      - name: 🖼 Font Awesome Pro
+      - name: 🅰 Font Awesome Pro
         run: |
           npm config set "@fortawesome:registry" https://npm.fontawesome.com/ && \
           npm config set "//npm.fontawesome.com/:_authToken" "${{ secrets.FONT_AWESOME_PRO_TOKEN }}"
