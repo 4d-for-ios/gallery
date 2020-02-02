@@ -1,5 +1,6 @@
 var path = require("path");
 var webpack = require("webpack");
+const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 module.exports = {
   entry: "./src/main.js",
@@ -71,6 +72,9 @@ if (process.env.NODE_ENV === "production") {
 }
 
 if (process.env.NODE_ENV === "development") {
+  module.exports.plugins = (module.exports.plugins || []).concat([
+    new VueLoaderPlugin()
+  ]);
   module.exports.module.rules = (module.exports.module.rules || []).concat([
     {
       test: /\.css$/,

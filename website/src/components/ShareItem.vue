@@ -4,7 +4,7 @@
       <div
         class="d-flex flex-column flex-1 rounded-1 border border-dashed border-gray-dark link-gray no-underline"
       >
-        <h3 class="h4 px-3 pt-3" @click="share">
+        <h3 class="h4 px-3 pt-3 text-left" @click="share">
           <svg
             class="octicon octicon-plus v-align-text-bottom"
             viewBox="0 0 12 16"
@@ -18,7 +18,7 @@
           Share your own
         </h3>
         <p
-          class="lh-condensed px-3 pb-3"
+          class="lh-condensed px-3 pb-3 text-left"
           @click="share"
         >Is your project is ready for prime time? Submit it.</p>
 
@@ -27,10 +27,14 @@
           style="margin-top: auto; border-bottom-left-radius: 0; border-bottom-right-radius: 0;"
         >
           <div class="d-flex flex-row">
-            <div class="col-6 tooltipped tooltipped-s">
-              <a
-                href="https://github.com/4d-for-ios/gallery/blob/master/.github/CONTRIBUTING.md"
-              ><font-awesome-icon icon="question-circle"/> Guide</a>
+            
+            <div class="col-3 tooltipped tooltipped-s">
+              <a href="https://github.com/4d-for-ios/gallery/blob/master/.github/CONTRIBUTING.md">
+                <font-awesome-icon icon="question-circle" />
+                <span class="v-align-baseline">Guide</span>  
+              </a>
+            </div>
+            <div class="col-9">
             </div>
           </div>
         </div>
@@ -50,7 +54,9 @@ export default {
   },
   methods: {
     share() {
-      window.open("https://github.com/4d-for-ios/gallery/blob/master/.github/CONTRIBUTING.md#how-do-you-add-a-package");
+      window.open(
+        "https://github.com/4d-for-ios/gallery/blob/master/.github/CONTRIBUTING.md#how-do-you-add-a-package"
+      );
     }
   }
 };

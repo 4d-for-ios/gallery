@@ -14,13 +14,15 @@
           style="margin-top: auto; border-bottom-left-radius: 0; border-bottom-right-radius: 0;"
         >
           <div class="d-flex flex-row">
-            <div class="col-6" @click="download">
+            <div class="col-3" @click="download">
               <font-awesome-icon icon="download" />
-              <span class="v-align-left">{{item.release}}</span>
+              <span class="v-align-baseline">{{item.release}}</span>
             </div>
-            <div class="col-6" @click="stargazer">
+            <div class="col-3" @click="stargazer">
               <font-awesome-icon icon="star" />
               <span class="v-align-middle">{{item.stargazers_count}}</span>
+            </div>
+            <div class="col-6">
             </div>
           </div>
         </div>

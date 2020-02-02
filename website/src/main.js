@@ -1,33 +1,33 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
 
 // Icons
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faSignIn } from '@fortawesome/pro-solid-svg-icons'
-library.add(faSignIn)
+library.add(faSignIn);
 import { faStar } from '@fortawesome/free-solid-svg-icons'
-library.add(faStar)
+library.add(faStar);
 import { faList } from '@fortawesome/free-solid-svg-icons'
-library.add(faList)
+library.add(faList);
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-library.add(faCoffee)
+library.add(faCoffee);
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
-library.add(faGithub)
+library.add(faGithub);
 import { faDownload } from '@fortawesome/pro-solid-svg-icons' // import { faCloudDownloadAlt } from '@fortawesome/free-solid-svg-icons'
 library.add(faDownload) // library.add(faCloudDownloadAlt)
 import { faQuestionCircle } from '@fortawesome/pro-solid-svg-icons'
-library.add(faQuestionCircle)
+library.add(faQuestionCircle);
 import { faFileInvoice } from '@fortawesome/pro-solid-svg-icons'
-library.add(faFileInvoice)
+library.add(faFileInvoice);
 import { faSprayCan } from '@fortawesome/pro-solid-svg-icons'
-library.add(faSprayCan)
+library.add(faSprayCan);
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import VueExpandableImage from 'vue-expandable-image'
-Vue.use(VueExpandableImage)
-Vue.component('font-awesome-icon', FontAwesomeIcon)
+Vue.use(VueExpandableImage);
+Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 // App
 
@@ -36,16 +36,18 @@ import Data from './components/Data.vue'
 
 // Routes
 const routes = [
-  { path: '/:type', component: Data }
+  { path: '/', redirect: '/type/form-list' },
+  { path: '/type/:type', component: Data, props: true},
+  { path: '/type/:type/picker/:picker', component: Data, props: true}
 ]
 
 const router = new VueRouter({
   routes
-})
+});
 
 // Run
 new Vue({
   el: '#app',
   router,
   render: h => h(App)
-})
+});
