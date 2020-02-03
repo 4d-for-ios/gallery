@@ -16,7 +16,7 @@
           <div class="d-flex flex-row">
             <div class="col-3" @click="download">
               <font-awesome-icon icon="download" />
-              <span class="v-align-baseline">{{item.release}}</span>
+              <span class="v-align-baseline">{{item.version}}</span>
             </div>
             <div class="col-3" @click="stargazer">
               <font-awesome-icon icon="star" />
