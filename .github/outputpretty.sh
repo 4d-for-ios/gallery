@@ -3,12 +3,12 @@ currentDir="."
 input="$currentDir/.gallery-workflow.yml"
 
 topics=$(yq -t r .gallery-workflow.yml "topics" | sed "s/- //")
-
+output="Specs" # todo: take from conf file
 status=0
 for topic in $topics
 do
   echo "🏷  $topic"
-  jsonDir=$currentDir/Output/$topic
+  jsonDir=$currentDir/$output/$topic
   
   files=$(find $jsonDir -name '*.json')
   for jsonFile in $files; do
