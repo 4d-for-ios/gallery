@@ -15,4 +15,13 @@ Please do submit your own, or other people's repositories to the lists. There ar
 
 ### How do you add a package?
 
-It's simple. Just fork this repository, edit the .txt files according to the type of repository, and submit a pull request. If you plan to submit a set of packages, there is no need to submit each package in a separate pull request. Feel free to bundle multiple updates at once as long as all packages match the criteria above.
+It's simple. Just fork this repository, edit the .txt files according to the type of repository, and submit a pull request.
+
+If you plan to submit a set of packages, there is no need to submit each package in a separate pull request. Feel free to bundle multiple updates at once as long as all packages match the criteria above.
+
+#### or simply edit files online (you must be logged to github)
+
+- 📝 [list form](https://github.com/4d-for-ios/gallery/edit/master/4d-for-ios-form-list.txt)
+- 📝[detail form](https://github.com/4d-for-ios/gallery/edit/master/4d-for-ios-form-detail.txt)
+- 📝[login form](https://github.com/4d-for-ios/gallery/edit/master/4d-for-ios-form-login.txt)
+- 📝[formatter](https://github.com/4d-for-ios/gallery/edit/master/4d-for-ios-formatter.txt)
