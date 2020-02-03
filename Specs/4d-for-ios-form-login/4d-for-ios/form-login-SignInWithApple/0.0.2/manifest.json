@@ -1,19 +1,16 @@
 {
-  "type": "login",
-  "name": "signinwithapple",
-  "inject": true,
+  "action": "published",
   "capabilities": {
-    "signInWithOS": true,
     "settings": {
       "application.services": [
         "SignInWithAppleCredentialStateService"
       ]
-    }
+    },
+    "signInWithOS": true
   },
   "homepage": "https://github.com/4d-for-ios/form-login-SignInWithApple",
-  "updateURL": "https://github.com/4d-for-ios/form-login-SignInWithApple/releases/latest/download/form-login-SignInWithApple.zip",
-  "version": "0.0.2",
-  "action": "published",
+  "inject": true,
+  "name": "signinwithapple",
   "organization": {
     "avatar_url": "https://avatars1.githubusercontent.com/u/57483781?v=4",
     "description": "",
@@ -186,5 +183,8 @@
     "subscriptions_url": "https://api.github.com/users/quentinmarciset/subscriptions",
     "type": "User",
     "url": "https://api.github.com/users/quentinmarciset"
-  }
+  },
+  "type": "login",
+  "updateURL": "https://github.com/4d-for-ios/form-login-SignInWithApple/releases/latest/download/form-login-SignInWithApple.zip",
+  "version": "0.0.2"
 }

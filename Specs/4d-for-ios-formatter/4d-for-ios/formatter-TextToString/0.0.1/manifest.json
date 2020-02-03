@@ -1,19 +1,14 @@
 {
-  "name": "textToString",
-  "type": [
-    "text"
-  ],
+  "action": "published",
   "binding": "localizedText",
   "choiceList": {
+    "AUS": "Australia",
     "FRA": "France",
     "MAR": "Morocco",
-    "USA": "United States",
-    "AUS": "Australia"
+    "USA": "United States"
   },
   "homepage": "https://github.com/4d-for-ios/formatter-TextToString",
-  "updateURL": "https://github.com/4d-for-ios/formatter-TextToString/releases/latest/download/formatter-TextToString.zip",
-  "version": "0.0.1",
-  "action": "published",
+  "name": "textToString",
   "organization": {
     "avatar_url": "https://avatars1.githubusercontent.com/u/57483781?v=4",
     "description": "",
@@ -180,5 +175,10 @@
     "subscriptions_url": "https://api.github.com/users/phimage/subscriptions",
     "type": "User",
     "url": "https://api.github.com/users/phimage"
-  }
+  },
+  "type": [
+    "text"
+  ],
+  "updateURL": "https://github.com/4d-for-ios/formatter-TextToString/releases/latest/download/formatter-TextToString.zip",
+  "version": "0.0.1"
 }

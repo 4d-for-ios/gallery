@@ -1,13 +1,10 @@
 {
-  "type": "listform",
-  "name": "Simple Collection",
+  "action": "published",
   "fields": {
     "count": 3
   },
   "homepage": "https://github.com/4d-for-ios/form-list-SimpleCollection",
-  "updateURL": "https://github.com/4d-for-ios/form-list-SimpleCollection/releases/latest/download/form-list-SimpleCollection.zip",
-  "version": "0.0.1",
-  "action": "published",
+  "name": "Simple Collection",
   "organization": {
     "avatar_url": "https://avatars1.githubusercontent.com/u/57483781?v=4",
     "description": "",
@@ -174,5 +171,8 @@
     "subscriptions_url": "https://api.github.com/users/phimage/subscriptions",
     "type": "User",
     "url": "https://api.github.com/users/phimage"
-  }
+  },
+  "type": "listform",
+  "updateURL": "https://github.com/4d-for-ios/form-list-SimpleCollection/releases/latest/download/form-list-SimpleCollection.zip",
+  "version": "0.0.1"
 }

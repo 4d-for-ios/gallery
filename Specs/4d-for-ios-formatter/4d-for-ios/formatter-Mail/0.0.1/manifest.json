@@ -1,11 +1,8 @@
 {
-  "name": "mail",
-  "binding": "mailAction",
-  "type": "text",
-  "homepage": "https://github.com/4d-for-ios/formatter-Mail",
-  "updateURL": "https://github.com/4d-for-ios/formatter-Mail/releases/latest/download/formatter-Mail.zip",
-  "version": "0.0.1",
   "action": "published",
+  "binding": "mailAction",
+  "homepage": "https://github.com/4d-for-ios/formatter-Mail",
+  "name": "mail",
   "organization": {
     "avatar_url": "https://avatars1.githubusercontent.com/u/57483781?v=4",
     "description": "",
@@ -172,5 +169,8 @@
     "subscriptions_url": "https://api.github.com/users/phimage/subscriptions",
     "type": "User",
     "url": "https://api.github.com/users/phimage"
-  }
+  },
+  "type": "text",
+  "updateURL": "https://github.com/4d-for-ios/formatter-Mail/releases/latest/download/formatter-Mail.zip",
+  "version": "0.0.1"
 }

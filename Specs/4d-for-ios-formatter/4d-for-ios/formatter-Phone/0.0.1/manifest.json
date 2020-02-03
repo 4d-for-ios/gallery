@@ -1,11 +1,8 @@
 {
-  "name": "phone",
-  "binding": "phoneAction",
-  "type": "text",
-  "homepage": "https://github.com/4d-for-ios/formatter-Phone",
-  "updateURL": "https://github.com/4d-for-ios/formatter-Phone/releases/latest/download/formatter-Phone.zip",
-  "version": "0.0.1",
   "action": "published",
+  "binding": "phoneAction",
+  "homepage": "https://github.com/4d-for-ios/formatter-Phone",
+  "name": "phone",
   "organization": {
     "avatar_url": "https://avatars1.githubusercontent.com/u/57483781?v=4",
     "description": "",
@@ -172,5 +169,8 @@
     "subscriptions_url": "https://api.github.com/users/phimage/subscriptions",
     "type": "User",
     "url": "https://api.github.com/users/phimage"
-  }
+  },
+  "type": "text",
+  "updateURL": "https://github.com/4d-for-ios/formatter-Phone/releases/latest/download/formatter-Phone.zip",
+  "version": "0.0.1"
 }

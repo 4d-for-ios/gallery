@@ -1,8 +1,5 @@
 {
-  "name": "integerToString",
-  "type": [
-    "integer"
-  ],
+  "action": "published",
   "binding": "localizedText",
   "choiceList": {
     "0": "UX designers",
@@ -11,9 +8,7 @@
     "3": "Product Owner"
   },
   "homepage": "https://github.com/4d-for-ios/formatter-IntToString",
-  "updateURL": "https://github.com/4d-for-ios/formatter-IntToString/releases/latest/download/formatter-IntToString.zip",
-  "version": "0.0.1",
-  "action": "published",
+  "name": "integerToString",
   "organization": {
     "avatar_url": "https://avatars1.githubusercontent.com/u/57483781?v=4",
     "description": "",
@@ -180,5 +175,10 @@
     "subscriptions_url": "https://api.github.com/users/phimage/subscriptions",
     "type": "User",
     "url": "https://api.github.com/users/phimage"
-  }
+  },
+  "type": [
+    "integer"
+  ],
+  "updateURL": "https://github.com/4d-for-ios/formatter-IntToString/releases/latest/download/formatter-IntToString.zip",
+  "version": "0.0.1"
 }

@@ -1,13 +1,10 @@
 {
-  "type": "listform",
-  "name": "Tasks Collection",
+  "action": "published",
   "fields": {
     "count": 4
   },
   "homepage": "https://github.com/4d-for-ios/form-list-TasksCollection",
-  "updateURL": "https://github.com/4d-for-ios/form-list-TasksCollection/releases/latest/download/form-list-TasksCollection.zip",
-  "version": "0.0.1",
-  "action": "published",
+  "name": "Tasks Collection",
   "organization": {
     "avatar_url": "https://avatars1.githubusercontent.com/u/57483781?v=4",
     "description": "",
@@ -174,5 +171,8 @@
     "subscriptions_url": "https://api.github.com/users/phimage/subscriptions",
     "type": "User",
     "url": "https://api.github.com/users/phimage"
-  }
+  },
+  "type": "listform",
+  "updateURL": "https://github.com/4d-for-ios/form-list-TasksCollection/releases/latest/download/form-list-TasksCollection.zip",
+  "version": "0.0.1"
 }

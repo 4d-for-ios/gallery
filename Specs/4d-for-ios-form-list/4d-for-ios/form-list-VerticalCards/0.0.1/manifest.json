@@ -1,16 +1,10 @@
 {
-  "type": "listform",
-  "name": "Vertical Cards",
+  "action": "published",
   "fields": {
     "count": 3
   },
-  "tags": {
-    "___LISTFORMTYPE___": "Table"
-  },
   "homepage": "https://github.com/4d-for-ios/form-list-VerticalCards",
-  "updateURL": "https://github.com/4d-for-ios/form-list-VerticalCards/releases/latest/download/form-list-VerticalCards.zip",
-  "version": "0.0.1",
-  "action": "published",
+  "name": "Vertical Cards",
   "organization": {
     "avatar_url": "https://avatars1.githubusercontent.com/u/57483781?v=4",
     "description": "",
@@ -177,5 +171,11 @@
     "subscriptions_url": "https://api.github.com/users/phimage/subscriptions",
     "type": "User",
     "url": "https://api.github.com/users/phimage"
-  }
+  },
+  "tags": {
+    "___LISTFORMTYPE___": "Table"
+  },
+  "type": "listform",
+  "updateURL": "https://github.com/4d-for-ios/form-list-VerticalCards/releases/latest/download/form-list-VerticalCards.zip",
+  "version": "0.0.1"
 }

@@ -1,16 +1,10 @@
 {
-  "type": "listform",
-  "name": "Parallax",
+  "action": "published",
   "fields": {
     "count": 3
   },
-  "sdk": {
-    "name": "AnimatedCollectionViewLayout"
-  },
   "homepage": "https://github.com/4d-for-ios/form-list-Parallax",
-  "updateURL": "https://github.com/4d-for-ios/form-list-Parallax/releases/latest/download/form-list-Parallax.zip",
-  "version": "0.0.1",
-  "action": "published",
+  "name": "Parallax",
   "organization": {
     "avatar_url": "https://avatars1.githubusercontent.com/u/57483781?v=4",
     "description": "",
@@ -158,6 +152,9 @@
     "watchers": 0,
     "watchers_count": 0
   },
+  "sdk": {
+    "name": "AnimatedCollectionViewLayout"
+  },
   "sender": {
     "avatar_url": "https://avatars1.githubusercontent.com/u/8875768?v=4",
     "events_url": "https://api.github.com/users/phimage/events{/privacy}",
@@ -177,5 +174,8 @@
     "subscriptions_url": "https://api.github.com/users/phimage/subscriptions",
     "type": "User",
     "url": "https://api.github.com/users/phimage"
-  }
+  },
+  "type": "listform",
+  "updateURL": "https://github.com/4d-for-ios/form-list-Parallax/releases/latest/download/form-list-Parallax.zip",
+  "version": "0.0.1"
 }

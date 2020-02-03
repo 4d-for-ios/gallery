@@ -1,16 +1,10 @@
 {
-  "type": "listform",
-  "name": "Folding Cell List",
+  "action": "published",
   "fields": {
     "count": 6
   },
-  "sdk": {
-    "name": "folding-cell"
-  },
   "homepage": "https://github.com/4d-for-ios/form-list-FoldingCellList",
-  "updateURL": "https://github.com/4d-for-ios/form-list-FoldingCellList/releases/latest/download/form-list-FoldingCellList.zip",
-  "version": "0.0.2",
-  "action": "published",
+  "name": "Folding Cell List",
   "organization": {
     "avatar_url": "https://avatars1.githubusercontent.com/u/57483781?v=4",
     "description": "",
@@ -158,6 +152,9 @@
     "watchers": 0,
     "watchers_count": 0
   },
+  "sdk": {
+    "name": "folding-cell"
+  },
   "sender": {
     "avatar_url": "https://avatars0.githubusercontent.com/u/38908668?v=4",
     "events_url": "https://api.github.com/users/DavAz4D/events{/privacy}",
@@ -177,5 +174,8 @@
     "subscriptions_url": "https://api.github.com/users/DavAz4D/subscriptions",
     "type": "User",
     "url": "https://api.github.com/users/DavAz4D"
-  }
+  },
+  "type": "listform",
+  "updateURL": "https://github.com/4d-for-ios/form-list-FoldingCellList/releases/latest/download/form-list-FoldingCellList.zip",
+  "version": "0.0.2"
 }

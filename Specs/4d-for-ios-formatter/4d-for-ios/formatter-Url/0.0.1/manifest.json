@@ -1,11 +1,8 @@
 {
-  "name": "url",
-  "binding": "urlAction",
-  "type": "text",
-  "homepage": "https://github.com/4d-for-ios/formatter-Url",
-  "updateURL": "https://github.com/4d-for-ios/formatter-Url/releases/latest/download/formatter-Url.zip",
-  "version": "0.0.1",
   "action": "published",
+  "binding": "urlAction",
+  "homepage": "https://github.com/4d-for-ios/formatter-Url",
+  "name": "url",
   "organization": {
     "avatar_url": "https://avatars1.githubusercontent.com/u/57483781?v=4",
     "description": "",
@@ -172,5 +169,8 @@
     "subscriptions_url": "https://api.github.com/users/phimage/subscriptions",
     "type": "User",
     "url": "https://api.github.com/users/phimage"
-  }
+  },
+  "type": "text",
+  "updateURL": "https://github.com/4d-for-ios/formatter-Url/releases/latest/download/formatter-Url.zip",
+  "version": "0.0.1"
 }

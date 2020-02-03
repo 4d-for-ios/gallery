@@ -1,25 +1,20 @@
 {
-  "name": "textToImage",
-  "type": [
-    "text"
-  ],
-  "binding": "imageNamed",
-  "choiceList": {
-    "Jean": "jean.png",
-    "Laurent": "laurent.png",
-    "Vincent": "vincent.png",
-    "Eric": "eric.png"
-  },
+  "action": "published",
   "assets": {
     "size": {
-      "width": 50,
-      "height": 50
+      "height": 50,
+      "width": 50
     }
   },
+  "binding": "imageNamed",
+  "choiceList": {
+    "Eric": "eric.png",
+    "Jean": "jean.png",
+    "Laurent": "laurent.png",
+    "Vincent": "vincent.png"
+  },
   "homepage": "https://github.com/4d-for-ios/formatter-TextToImage",
-  "updateURL": "https://github.com/4d-for-ios/formatter-TextToImage/releases/latest/download/formatter-TextToImage.zip",
-  "version": "0.0.1",
-  "action": "published",
+  "name": "textToImage",
   "organization": {
     "avatar_url": "https://avatars1.githubusercontent.com/u/57483781?v=4",
     "description": "",
@@ -186,5 +181,10 @@
     "subscriptions_url": "https://api.github.com/users/phimage/subscriptions",
     "type": "User",
     "url": "https://api.github.com/users/phimage"
-  }
+  },
+  "type": [
+    "text"
+  ],
+  "updateURL": "https://github.com/4d-for-ios/formatter-TextToImage/releases/latest/download/formatter-TextToImage.zip",
+  "version": "0.0.1"
 }

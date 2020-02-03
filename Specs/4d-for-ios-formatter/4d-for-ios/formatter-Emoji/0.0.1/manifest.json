@@ -1,10 +1,5 @@
 {
-  "name": "GenderEmoji",
-  "type": [
-    "boolean",
-    "real",
-    "integer"
-  ],
+  "action": "published",
   "binding": "localizedText",
   "choiceList": [
     "👩",
@@ -12,9 +7,7 @@
     "🧑"
   ],
   "homepage": "https://github.com/4d-for-ios/formatter-Emoji",
-  "updateURL": "https://github.com/4d-for-ios/formatter-Emoji/releases/latest/download/formatter-Emoji.zip",
-  "version": "0.0.1",
-  "action": "published",
+  "name": "GenderEmoji",
   "organization": {
     "avatar_url": "https://avatars1.githubusercontent.com/u/57483781?v=4",
     "description": "",
@@ -181,5 +174,12 @@
     "subscriptions_url": "https://api.github.com/users/phimage/subscriptions",
     "type": "User",
     "url": "https://api.github.com/users/phimage"
-  }
+  },
+  "type": [
+    "boolean",
+    "real",
+    "integer"
+  ],
+  "updateURL": "https://github.com/4d-for-ios/formatter-Emoji/releases/latest/download/formatter-Emoji.zip",
+  "version": "0.0.1"
 }

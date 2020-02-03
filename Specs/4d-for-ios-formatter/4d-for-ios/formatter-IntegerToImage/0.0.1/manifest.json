@@ -1,8 +1,11 @@
 {
-  "name": "integerToImage",
-  "type": [
-    "integer"
-  ],
+  "action": "published",
+  "assets": {
+    "size": {
+      "height": 50,
+      "width": 50
+    }
+  },
   "binding": "imageNamed",
   "choiceList": {
     "0": "todo.png",
@@ -10,16 +13,8 @@
     "2": "pending.png",
     "3": "done.png"
   },
-  "assets": {
-    "size": {
-      "width": 50,
-      "height": 50
-    }
-  },
   "homepage": "https://github.com/4d-for-ios/formatter-IntegerToImage",
-  "updateURL": "https://github.com/4d-for-ios/formatter-IntegerToImage/releases/latest/download/formatter-IntegerToImage.zip",
-  "version": "0.0.1",
-  "action": "published",
+  "name": "integerToImage",
   "organization": {
     "avatar_url": "https://avatars1.githubusercontent.com/u/57483781?v=4",
     "description": "",
@@ -186,5 +181,10 @@
     "subscriptions_url": "https://api.github.com/users/phimage/subscriptions",
     "type": "User",
     "url": "https://api.github.com/users/phimage"
-  }
+  },
+  "type": [
+    "integer"
+  ],
+  "updateURL": "https://github.com/4d-for-ios/formatter-IntegerToImage/releases/latest/download/formatter-IntegerToImage.zip",
+  "version": "0.0.1"
 }
