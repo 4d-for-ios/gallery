@@ -16,7 +16,7 @@
 
 ## Build with?
 
-see package.json
+see [package.json](package.json)
 
 ### js
 - [vue.js](https://vuejs.org/)
