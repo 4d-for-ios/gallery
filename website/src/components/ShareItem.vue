@@ -5,16 +5,7 @@
         class="d-flex flex-column flex-1 rounded-1 border border-dashed border-gray-dark link-gray no-underline"
       >
         <h3 class="h4 px-3 pt-3 text-left" @click="share">
-          <svg
-            class="octicon octicon-plus v-align-text-bottom"
-            viewBox="0 0 12 16"
-            version="1.1"
-            width="12"
-            height="16"
-            aria-hidden="true"
-          >
-            <path fill-rule="evenodd" d="M12 9H7v5H5V9H0V7h5V2h2v5h5v2z" />
-          </svg>
+          <font-awesome-icon :icon="['fas', 'plus']" />
           Share your own
         </h3>
         <p
@@ -28,7 +19,7 @@
         >
           <div class="d-flex flex-row">
             
-            <div class="col-3 tooltipped tooltipped-s">
+            <div class="col-3">
               <a href="https://github.com/4d-for-ios/gallery/blob/master/.github/CONTRIBUTING.md">
                 <font-awesome-icon icon="question-circle" />
                 <span class="v-align-baseline">Guide</span>  
