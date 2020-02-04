@@ -29,5 +29,5 @@ jobs:
           npm run build
       - name: 🚀 Publish website
         run: |
-          cd website
-          # npm run publish-gh-pages
+          REPOSITORY_NAME=$(jq --raw-output '.repository.name' $GITHUB_EVENT_PATH)
+          ./github/publish-gh-pages.sh $GITHUB_REPOSITORY $GITHUB_ACTOR $REPOSITORY_NAME ${{ secrets.GITHUB_TOKEN }} $GITHUB_SHA

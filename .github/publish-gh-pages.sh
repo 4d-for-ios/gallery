@@ -1,29 +1,52 @@
-GITHUB_TOKEN=$1
+#!/bin/sh
 
-remoteBranch="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+GITHUB_REPOSITORY=$1
+GITHUB_ACTOR=$2
+REPOSITORY_NAME=$3
+GITHUB_TOKEN=$4
+GITHUB_SHA=$5
 
 DEPLOYMENT_BRANCH="gh-pages"
 
+if [[ ! -f "website/dist/build.js" ]]
+then
+    echo "Site not builded. No build.js"
+    exit 1
+fi
+
 # Go to a specific folder to work
-mdkir -p build
-cd build
+build_dir="website_build"
+rm -Rf $build_dir
+mkdir -p $build_dir
+cd $build_dir
+
 # clone gh-pages
-git clone ${remoteBranch} ${PROJECT_NAME}-${DEPLOYMENT_BRANCH}
-cd "${PROJECT_NAME}-${DEPLOYMENT_BRANCH}"
-git checkout -b ${DEPLOYMENT_BRANCH}
+echo "⬇️ clone ${DEPLOYMENT_BRANCH}"
+remoteBranch="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+git clone -b "${DEPLOYMENT_BRANCH}" --single-branch "${remoteBranch}" "${REPOSITORY_NAME}-${DEPLOYMENT_BRANCH}"
+pwd
+cd "${REPOSITORY_NAME}-${DEPLOYMENT_BRANCH}"
 
 # remove everything (file will be replaces)
-#git rm -rf .
-
-# return to website root
-#cd ../..
+echo "⚙️ remplace files by builded ones"
+git rm -rf .
 
 # copy files
+source="../../website/"
+
+if [ -d $source/node_modules/ ]; then
+    mv $source/node_modules/ ../ # move into $build_dir to skip it
+fi
+cp -R $source/* .
+if [ -d ../node_modules/ ]; then
+    mv ../node_modules $source/
+fi
 
 # return to clone
-#cd 
-#git commit -m "Deploy website version based on ${currentCommit}"
+echo "🌊 commit for ${GITHUB_SHA}"
+git add .
+git commit -m "Deploy website version based on ${GITHUB_SHA}"
 
 #git push origin ${DEPLOYMENT_BRANCH}
-
-echo "Publish into https://${ORGANIZATION_NAME}.github.io/${PROJECT_NAME}"
+echo "⬆️ push to ${DEPLOYMENT_BRANCH}"
+git push origin
