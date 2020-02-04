@@ -3,7 +3,7 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS Data Formatter",
-      "download_count": 15,
+      "download_count": 17,
       "download_url": "https://github.com/4d-for-ios/formatter-Address/releases/download/0.0.1/formatter-Address.zip",
       "html_url": "https://github.com/4d-for-ios/formatter-Address",
       "name": "address",
@@ -14,7 +14,7 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS Data Formatter",
-      "download_count": 15,
+      "download_count": 17,
       "download_url": "https://github.com/4d-for-ios/formatter-BoolToImage/releases/download/0.0.1/formatter-BoolToImage.zip",
       "html_url": "https://github.com/4d-for-ios/formatter-BoolToImage",
       "name": "BoolToImage",
@@ -36,7 +36,7 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS Data Formatter",
-      "download_count": 16,
+      "download_count": 18,
       "download_url": "https://github.com/4d-for-ios/formatter-Html/releases/download/0.0.1/formatter-Html.zip",
       "html_url": "https://github.com/4d-for-ios/formatter-Html",
       "name": "htmlText",
@@ -58,7 +58,7 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS Data Formatter",
-      "download_count": 13,
+      "download_count": 15,
       "download_url": "https://github.com/4d-for-ios/formatter-IntegerToImage/releases/download/0.0.1/formatter-IntegerToImage.zip",
       "html_url": "https://github.com/4d-for-ios/formatter-IntegerToImage",
       "name": "integerToImage",
@@ -80,7 +80,7 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS Data Formatter",
-      "download_count": 15,
+      "download_count": 17,
       "download_url": "https://github.com/4d-for-ios/formatter-Phone/releases/download/0.0.1/formatter-Phone.zip",
       "html_url": "https://github.com/4d-for-ios/formatter-Phone",
       "name": "phone",
@@ -91,7 +91,7 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS Data Formatter",
-      "download_count": 10,
+      "download_count": 11,
       "download_url": "https://github.com/4d-for-ios/formatter-TextToImage/releases/download/0.0.1/formatter-TextToImage.zip",
       "html_url": "https://github.com/4d-for-ios/formatter-TextToImage",
       "name": "textToImage",
