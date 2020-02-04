@@ -1,54 +1,47 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+Vue.use(VueRouter);
 
-Vue.use(VueRouter)
+
+// Icons
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 
-import { faSignIn } from '@fortawesome/pro-solid-svg-icons'
-library.add(faSignIn)
 import { faStar } from '@fortawesome/free-solid-svg-icons'
-library.add(faStar)
-import { faList } from '@fortawesome/free-solid-svg-icons'
-library.add(faList)
-
-
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-library.add(faCoffee)
+library.add(faStar);
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
-library.add(faGithub)
-
-import { faDownload } from '@fortawesome/pro-solid-svg-icons' // import { faCloudDownloadAlt } from '@fortawesome/free-solid-svg-icons'
-library.add(faDownload) // library.add(faCloudDownloadAlt)
-
-import { faQuestionCircle } from '@fortawesome/pro-solid-svg-icons'
-library.add(faQuestionCircle)
-import { faFileInvoice } from '@fortawesome/pro-solid-svg-icons'
-library.add(faFileInvoice)
-
-import { faSprayCan } from '@fortawesome/pro-solid-svg-icons'
-library.add(faSprayCan)
+library.add(faGithub);
+import { faQuestionCircle } from '@fortawesome/free-solid-svg-icons'
+library.add(faQuestionCircle);
+import { faCloudDownloadAlt } from '@fortawesome/free-solid-svg-icons'
+library.add(faCloudDownloadAlt);
+import { faPlus } from '@fortawesome/free-solid-svg-icons'
+library.add(faPlus);
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-
 import VueExpandableImage from 'vue-expandable-image'
-Vue.use(VueExpandableImage)
+Vue.use(VueExpandableImage);
+Vue.component('font-awesome-icon', FontAwesomeIcon);
 
-Vue.component('font-awesome-icon', FontAwesomeIcon)
+// App
 
 import App from './App.vue'
 import Data from './components/Data.vue'
 
+// Routes
 const routes = [
-  { path: '/data/:type', component: Data }
+  { path: '/', redirect: '/type/form-list' },
+  { path: '/type/:type', component: Data, props: true},
+  { path: '/type/:type/picker/:picker', component: Data, props: true}
 ]
 
 const router = new VueRouter({
   routes
-})
+});
 
+// Run
 new Vue({
   el: '#app',
   router,
   render: h => h(App)
-})
+});
