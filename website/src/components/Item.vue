@@ -81,7 +81,7 @@ export default {
         var query = this.avatars;
         query["name"]=this.item.name;
         var queryString = Object.keys(query).map((key) => {
-          return encodeURIComponent(key) + '=' + encodeURIComponent(params[key]);
+          return encodeURIComponent(key) + '=' + encodeURIComponent(query[key]);
         }).join('&');
         this.item.image_url="https://eu.ui-avatars.com/api/?"+queryString;
       }
