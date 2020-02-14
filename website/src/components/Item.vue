@@ -53,7 +53,7 @@ export default {
         background: "388CDB",
         color: "FFF",
         rounded: "true"
-      }
+      },
       item: {}
     };
   },
