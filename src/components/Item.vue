@@ -49,6 +49,11 @@ export default {
   props: ["passedItem", "type"],
   data() {
     return {
+      avatars: { 
+        background: "388CDB",
+        color: "FFF",
+        rounded: "true"
+      },
       item: {}
     };
   },
@@ -73,7 +78,12 @@ export default {
     if (this.item) {
       this.item.has_image = this.item.image_url != null;
       if (!this.item.has_image) {
-        this.item.image_url="https://eu.ui-avatars.com/api/?name="+encodeURIComponent(this.item.name)+"&rounded=true&background=0D8ABC&color=fff";
+        var query = this.avatars;
+        query["name"]=this.item.name;
+        var queryString = Object.keys(query).map((key) => {
+          return encodeURIComponent(key) + '=' + encodeURIComponent(params[key]);
+        }).join('&');
+        this.item.image_url="https://eu.ui-avatars.com/api/?"+queryString;
       }
     }
   }
