@@ -1,5 +1,5 @@
 <template>
-  <div class="col-2 col-sm-2 mb-3 mt-3 d-flex flex-column">
+  <div class="col-6 col-sm-6 mb-3 mt-3 d-flex flex-column">
     <div class="flex-column bg-white rounded-1 box-shadow border text-inherit no-underline">
       <div class="d-flex flex-row">
         <div class="col-sm-2 v-align-middle pt-1 pl-1">
