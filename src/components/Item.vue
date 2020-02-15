@@ -23,19 +23,19 @@
         style="margin-top: auto; border-bottom-left-radius: 0; border-bottom-right-radius: 0;"
       >
         <div class="d-flex flex-row">
-          <div class="col-2">
+          <div class="col-2 tooltipped tooltipped-s" aria-label="Latest version">
             <span class="v-align-baseline">{{item.version}}</span>
           </div>
           <div class="col-8"></div>
-          <div class="col-2 cursor-pointer" @click="download">
+          <div class="col-2 cursor-pointer tooltipped tooltipped-s" :aria-label='item.download_count+" installations"' @click="download">
             <font-awesome-icon :icon="['fas', 'cloud-download-alt']" />
             <span class="v-align-middle">{{item.download_count}}</span>
           </div>
-          <div class="col-2 cursor-pointer" @click="stargazer">
+          <div class="col-2 cursor-pointer tooltipped tooltipped-s" :aria-label='item.stargazers_count+" stars"' @click="stargazer">
             <font-awesome-icon icon="star" />
             <span class="v-align-middle">{{item.stargazers_count}}</span>
           </div>
-          <div class="col-2 cursor-pointer" @click="openURL">
+          <div class="col-2 cursor-pointer tooltipped tooltipped-s" aria-label="Open on github" @click="openURL" >
             <font-awesome-icon :icon="['fab', 'github']" />
           </div>
         </div>
