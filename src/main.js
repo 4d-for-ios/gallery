@@ -4,8 +4,6 @@ Vue.use(VueRouter);
 
 // Icons
 
-import { library } from '@fortawesome/fontawesome-svg-core'
-
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 library.add(faStar);
 import { faGithub } from '@fortawesome/free-brands-svg-icons'

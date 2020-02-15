@@ -1,5 +1,5 @@
 <template>
-  <div class="col-4 col-sm-4 mb-3 mt-3 d-flex flex-column cursor-pointer">
+  <div class="col-6 col-sm-6 mb-3 mt-3 d-flex flex-column cursor-pointer">
     <div class="item-card">
       <div
         class="d-flex flex-column flex-1 rounded-1 border border-dashed border-gray-dark link-gray no-underline"
@@ -35,7 +35,6 @@
 </template>
 
 <script>
-//const gallery_api = require('express');
 export default {
   props: ["type"],
   data() {

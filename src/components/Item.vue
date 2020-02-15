@@ -13,7 +13,7 @@
             :src="item.image_url"
           />
         </div>
-        <div class="col-sm-10 text-left cursor-pointer" @click="download">
+        <div class="col-sm-10 text-left cursor-pointer" @click="mainAction">
           <h3 class="h4 px-3 pt-3">{{item.name}}</h3>
           <p class="text-gray lh-condensed px-3 pb-3">{{item.description}}</p>
         </div>
@@ -58,6 +58,9 @@ export default {
     };
   },
   methods: {
+    mainAction() {
+      download();
+    },
     openURL() {
       window.open(this.item.html_url);
     },
