@@ -1,5 +1,5 @@
 <template>
-  <div class="col-sm-12 d-md-flex flex-wrap gutter flex-auto">
+  <div class="col-sm-12 d-md-flex flex-wrap gutter flex-auto ml-1">
     <Item v-for="(item, index) in items" v-bind:key="index" :passed-item="item" :type="type" :picker="picker" />
     <ShareItem :type="type" />
   </div>
