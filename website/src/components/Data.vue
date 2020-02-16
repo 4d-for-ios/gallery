@@ -1,6 +1,6 @@
 <template>
   <div class="col-sm-12 d-md-flex flex-wrap gutter flex-auto">
-    <Item v-for="(item, index) in items" v-bind:key="index" :passed-item="item" :type="type" />
+    <Item v-for="(item, index) in items" v-bind:key="index" :passed-item="item" :type="type" :picker="picker" />
     <ShareItem :type="type" />
   </div>
 </template>
@@ -14,6 +14,7 @@ export default {
   data() {
     return {
       type: this.$route.params.type,
+      picker: this.$route.params.picker,
       items: []
     };
   },
