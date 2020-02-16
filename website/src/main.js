@@ -27,6 +27,8 @@ Vue.use(VueImg, {
 });
 // App
 
+export const serverBus = new Vue();
+
 import App from './App.vue'
 import Data from './components/Data.vue'
 
