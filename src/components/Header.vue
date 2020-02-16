@@ -20,7 +20,7 @@
               <li>
                 <router-link class="link" to="/type/formatter"><b>Formatters</b></router-link>
               </li>
-              <li v-if="search" class="navSearchWrapper reactNavSearchWrapper">
+              <li  class="navSearchWrapper reactNavSearchWrapper">
                 <span
                   class="algolia-autocomplete"
                   style="position: relative; display: inline-block; direction: ltr;"
@@ -40,6 +40,7 @@
                     aria-owns="algolia-autocomplete-listbox-0"
                     dir="auto"
                     style="position: relative; vertical-align: top;"
+                    v-model="searchTerm"
                   />
                   <pre
                     aria-hidden="true"
@@ -62,6 +63,29 @@
     </div>
   </div>
 </template>
+
+<script type="text/javascript">
+import { serverBus } from '../main.js';
+
+export default {
+  data() {
+    return {
+      searchTerm: ""
+    };
+  },
+ watch: {
+  searchTerm: function (newSearch, oldSearch) { 
+   serverBus.$emit('search', this.searchTerm);
+  },
+  $route: "resetSearch"
+ },
+ methods: {
+   resetSearch: function() {
+     this.searchTerm = "";
+   }
+ }
+}
+</script>
 
 <style>
 @media screen and (min-width: 1024px)
@@ -108,4 +132,6 @@
   position: relative;
   text-align: left;
 }
+
+
 </style>
