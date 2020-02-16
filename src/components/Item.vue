@@ -6,9 +6,9 @@
           <img 
             v-if="item.has_image"
             v-bind:src="item.image_url"
-            v-img:items='{title: item.name}'
+            v-img:items='{title: item.name, opened: openG, changed: changed }'
             class = "image"
-            @click="onImageClick"
+            :data-download_url="item.download_url"
           />
           <img
             v-else
@@ -49,7 +49,7 @@
 
 <script>
 export default {
-  props: ["passedItem", "type"],
+  props: ["passedItem", "type", "picker"],
   data() {
     return {
       avatars: { 
@@ -62,7 +62,11 @@ export default {
   },
   methods: {
     mainAction() {
-      download();
+      if (this.picker) {
+        this.download();
+      } else {
+        this.openURL();
+      }
     },
     openURL() {
       window.open(this.item.html_url);
@@ -78,32 +82,36 @@ export default {
     github() {
       window.open(this.item.html_url);
     },
-    onImageClick() {
-      // Replace link to download image to download project
-      setTimeout(() => {
-        var links = Array.prototype.slice.call(window.document.getElementsByTagName("a"));
-        links.forEach(link => {
-          if (link.href == this.item.image_url) {
-            link.href = this.item.download_url;
-            console.log("download "+link.href);
-            link.id = "image_download";
-            var self = this
-            var observer = new MutationObserver(function(mutations) {
-            mutations.forEach(function(mutation) {
-              if (mutation.type == "attributes") {
-                if (self.item.download_url != link.href ) {
-                  link.href = self.item.download_url;
-                  console.log("download "+link.href);
-                }
-              }
-              });
-            });
-            observer.observe(link, {
-              attributes: true //configure it to listen to attribute changes
-            });
-          };
-        }); 
-      }, 500);
+    openG() {
+      console.log("Preview full screen");
+      var self = this
+      setTimeout(function(){ 
+      var links = Array.prototype.slice.call(window.document.getElementsByTagName("a"));
+      links.forEach(link => {
+        if (link.href == self.item.image_url) {
+          console.log("replace "+link.href);
+          link.href = self.item.download_url;
+          console.log("download "+link.href);
+          link.id = "downloadLink";
+        }
+      });
+      }, 1000);
+    },
+    changed(imageIndex) {
+      console.log("Changed image "+imageIndex);
+
+      var images = [
+            ...document.querySelectorAll(`img[data-vue-img-group="items"]`),
+      ];
+      var image = images[imageIndex]; // XXX tricky way to get image and download url...
+      var download_url = image.dataset.download_url;  
+  
+      setTimeout(function(){ 
+        var link = window.document.getElementById("downloadLink");
+        console.log("replace "+link.href);
+        link.href = download_url;
+        console.log("download "+link.href);
+      }, 1000);
     }
   },
   created() {
