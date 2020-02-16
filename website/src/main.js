@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter);
 
 // Icons
+import { library } from '@fortawesome/fontawesome-svg-core'
 
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 library.add(faStar);
@@ -16,10 +17,14 @@ import { faPlus } from '@fortawesome/free-solid-svg-icons'
 library.add(faPlus);
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import VueExpandableImage from 'vue-expandable-image'
-Vue.use(VueExpandableImage);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
+import VueImg from 'v-img';
+Vue.use(VueImg, {
+  altAsTitle: false,
+  sourceButton: true,
+  thumbnails: false,
+});
 // App
 
 import App from './App.vue'
