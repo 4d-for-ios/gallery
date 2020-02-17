@@ -26,11 +26,11 @@
         style="margin-top: auto; border-bottom-left-radius: 0; border-bottom-right-radius: 0;"
       >
         <div class="d-flex flex-row ml-1">
-          <div class="col-sm-2 cursor-pointer tooltipped tooltipped-s" :aria-label='item.download_count+" installations"' @click="download">
+          <div v-if="picker === null" class="col-sm-2 cursor-pointer tooltipped tooltipped-s" :aria-label='item.download_count+" installations"' @click="download">
             <font-awesome-icon :icon="['fas', 'cloud-download-alt']" />
             <span class="v-align-baseline">{{item.download_count}}</span>
           </div>
-          <div class="col-sm-2 cursor-pointer tooltipped tooltipped-s" :aria-label='item.stargazers_count+" stars"' @click="stargazer">
+          <div v-if="picker === null" class="col-sm-2 cursor-pointer tooltipped tooltipped-s" :aria-label='item.stargazers_count+" stars"' @click="stargazer">
             <font-awesome-icon icon="star" />
             <span class="v-align-baseline">{{item.stargazers_count}}</span>
           </div>
