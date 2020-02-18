@@ -8,6 +8,7 @@
     "3": "Product Owner"
   },
   "homepage": "https://github.com/4d-for-ios/formatter-IntToString",
+  "icon": "logo.png",
   "name": "integerToString",
   "organization": {
     "avatar_url": "https://avatars1.githubusercontent.com/u/57483781?v=4",

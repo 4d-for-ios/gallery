@@ -2,6 +2,7 @@
   "action": "published",
   "binding": "phoneAction",
   "homepage": "https://github.com/4d-for-ios/formatter-Phone",
+  "icon": "logo.png",
   "name": "phone",
   "organization": {
     "avatar_url": "https://avatars1.githubusercontent.com/u/57483781?v=4",

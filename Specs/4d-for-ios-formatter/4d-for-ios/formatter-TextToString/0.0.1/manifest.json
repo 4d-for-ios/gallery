@@ -8,6 +8,7 @@
     "USA": "United States"
   },
   "homepage": "https://github.com/4d-for-ios/formatter-TextToString",
+  "icon": "logo.png",
   "name": "textToString",
   "organization": {
     "avatar_url": "https://avatars1.githubusercontent.com/u/57483781?v=4",

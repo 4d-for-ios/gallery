@@ -2,6 +2,7 @@
   "action": "published",
   "binding": "mailAction",
   "homepage": "https://github.com/4d-for-ios/formatter-Mail",
+  "icon": "logo.png",
   "name": "mail",
   "organization": {
     "avatar_url": "https://avatars1.githubusercontent.com/u/57483781?v=4",

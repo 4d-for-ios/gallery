@@ -4,6 +4,7 @@
     "count": 3
   },
   "homepage": "https://github.com/4d-for-ios/form-list-Parallax",
+  "icon": "logo.png",
   "name": "Parallax",
   "organization": {
     "avatar_url": "https://avatars1.githubusercontent.com/u/57483781?v=4",
@@ -19,6 +20,7 @@
     "repos_url": "https://api.github.com/orgs/4d-for-ios/repos",
     "url": "https://api.github.com/orgs/4d-for-ios"
   },
+  "preview": "preview.gif",
   "release": {
     "assets": [],
     "assets_url": "https://api.github.com/repos/4d-for-ios/form-list-Parallax/releases/21737571/assets",
