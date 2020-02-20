@@ -42,6 +42,19 @@ if [ -d ../node_modules/ ]; then
     mv ../node_modules $source/
 fi
 
+# specs
+output="Specs" # todo: take from conf file
+mkdir -p $output
+source="../../$output/"
+echo "copy index file by topics"
+topics=$(yq r ../../.gallery-workflow.yml "topics" | sed "s/- //")
+for topic in $topics
+do
+  echo "🏷  $topic"
+  mkdir -p "$output/$topic"
+  cp "$source/$topic/index.json/" "$output/$topic"
+done
+
 # return to clone
 echo "🌊 commit for ${GITHUB_SHA}"
 git add .
