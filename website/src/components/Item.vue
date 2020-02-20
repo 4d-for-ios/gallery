@@ -126,7 +126,8 @@ export default {
         if (this.item.image_url.includes("http")) {
           // do nothing
         } else {
-          var rootURL = window.location.host+window.location.pathname
+          var location = window.location
+          var rootURL = location.protocol+"//"+location.host+location.pathname
           if (window.location.host.includes("localhost")) {
              rootURL = "https://4d-for-ios.github.io/gallery/" // to test
           }
