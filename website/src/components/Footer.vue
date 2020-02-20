@@ -12,7 +12,7 @@
           <a href="https://www.facebook.com/4Dsoftware/">Facebook</a>
           <a href="https://twitter.com/4Dsoftware">Twitter</a>
           <a href="https://www.youtube.com/user/4Dsoftware">Youtube</a>
-          <a href="https://github.com/4D/">GitHub</a>
+          <a href="https://github.com/4D-for-ios">GitHub</a>
         </div>
         <div>
           <h5>Support</h5>
