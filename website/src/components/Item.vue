@@ -4,15 +4,15 @@
       <div class="d-flex flex-row">
         <div class="col-3 col-sm-3 v-align-middle pt-1 pl-1">
           <img 
-            v-if="item.has_image"
+            v-if="item.has_preview"
             v-bind:src="item.image_url"
             v-img:items='{title: item.name, cursor: "zoom-in", opened: openG, changed: changed }'
-            class = "image"
+            class = "preview"
             :data-download_url="item.download_url"
           />
           <img
             v-else
-            v-img:items='{title: item.name}'
+            class = "image"
             :src="item.image_url"
           />
         </div>
@@ -118,10 +118,20 @@ export default {
   created() {
     this.item = this.passedItem;
     if (this.item) {
-      if (this.type == "formatter") {
-        this.item.image_url = this.item.html_url+"/blob/master/formatter.png?raw=true"
-      } else {
-        this.item.image_url = this.item.html_url+"/blob/master/template.gif?raw=true"
+        if (this.item.preview_url) {
+          this.item.image_url = this.item.preview_url; // for the moment, use preview
+          this.item.has_preview = true
+      }
+      if (this.item.image_url) {
+        if (this.item.image_url.includes("http")) {
+          // do nothing
+        } else {
+          var rootURL = window.location.host+window.location.pathname
+          if (window.location.host.includes("localhost")) {
+             rootURL = "https://4d-for-ios.github.io/gallery/" // to test
+          }
+          this.item.image_url = rootURL + this.item.image_url
+        }
       }
       this.item.has_image = this.item.image_url != null;
       if (!this.item.has_image) {
@@ -137,8 +147,11 @@ export default {
 };
 </script>
 <style scoped>
-.image {
+.preview {
   max-width: 50px;
+}
+.image {
+  max-width: 80px;
 }
 .cursor-pointer {
   cursor: pointer;
