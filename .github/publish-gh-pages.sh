@@ -52,7 +52,7 @@ for topic in $topics
 do
   echo "🏷  $topic"
   mkdir -p "$output/$topic"
-  cp "$source/$topic/index.json/" "$output/$topic"
+  cp "$source$topic/index.json" "$output/$topic/"
 done
 
 # return to clone
