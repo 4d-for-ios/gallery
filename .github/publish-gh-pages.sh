@@ -44,7 +44,7 @@ fi
 
 # specs
 output="Specs" # todo: take from conf file
-#mkdir -p $output
+mkdir -p $output
 source="../../$output/"
 
 #echo "copy index file by topics" # if we want to do it by file
@@ -64,7 +64,7 @@ source="../../$output/"
 #  done
 #done
 
-cp -R $source .
+cp -R $source ./$output/
 
 # return to clone
 echo "🌊 commit for ${GITHUB_SHA}"
