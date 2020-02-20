@@ -44,16 +44,27 @@ fi
 
 # specs
 output="Specs" # todo: take from conf file
-mkdir -p $output
+#mkdir -p $output
 source="../../$output/"
-echo "copy index file by topics"
-topics=$(yq r ../../.gallery-workflow.yml "topics" | sed "s/- //")
-for topic in $topics
-do
-  echo "🏷  $topic"
-  mkdir -p "$output/$topic"
-  cp "$source$topic/index.json" "$output/$topic/"
-done
+
+#echo "copy index file by topics" # if we want to do it by file
+#topics=$(yq r ../../.gallery-workflow.yml "topics" | sed "s/- //")
+#for topic in $topics
+#do
+#  echo "🏷  $topic"
+#  mkdir -p "$output/$topic"
+#  cp "$source$topic/index.json" "$output/$topic/"
+  
+#  for repo in $source$topic/*
+#  do 
+#    echo "📦 $repo"
+#    mkdir -p $output/$topic/$repo
+ #   cp "$source$topic/$repo/info.json" "$output/$topic/$repo/"
+    
+#  done
+#done
+
+cp -R $source .
 
 # return to clone
 echo "🌊 commit for ${GITHUB_SHA}"
