@@ -16,6 +16,9 @@ library.add(faCloudDownloadAlt);
 import { faPlus } from '@fortawesome/free-solid-svg-icons'
 library.add(faPlus);
 
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
+library.add(faExternalLinkAlt);
+
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 

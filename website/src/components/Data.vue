@@ -1,13 +1,15 @@
 <template>
   <div class="col-sm-12 d-md-flex flex-wrap gutter flex-auto ml-1">
     <Item v-for="item in filtered" v-bind:key="item.html_url" :passed-item="item" :type="type" :picker="picker" />
-    <ShareItem :type="type" />
+    <GalleryItem v-if="picker" :type="type" />
+    <ShareItem v-else :type="type" />
   </div>
 </template>
 
 <script>
 import Item from "./Item.vue";
 import ShareItem from "./ShareItem.vue";
+import GalleryItem from "./GalleryItem.vue";
 import api from "@4d-for-ios/gallery_api";
 
 import { serverBus } from '../main.js';
@@ -59,7 +61,8 @@ export default {
   },
   components: {
     Item,
-    ShareItem
+    ShareItem,
+    GalleryItem
   }
 };
 </script>
