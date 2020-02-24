@@ -19,13 +19,13 @@
         >
           <div class="d-flex flex-row">
             
-            <div class="col-3">
+            <div class="col-3 col-sm3">
               <a href="https://github.com/4d-for-ios/gallery/blob/master/.github/CONTRIBUTING.md">
                 <font-awesome-icon icon="question-circle" />
                 <span class="v-align-baseline">Guide</span>  
               </a>
             </div>
-            <div class="col-9">
+            <div class="col-9 col-sm9">
             </div>
           </div>
         </div>
