@@ -198,15 +198,15 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS Detail Form template",
-      "download_count": 19,
-      "download_url": "https://github.com/4d-for-ios/form-detail-TasksDetail/releases/download/0.0.1/form-detail-TasksDetail.zip",
+      "download_count": 1,
+      "download_url": "https://github.com/4d-for-ios/form-detail-TasksDetail/releases/download/0.0.2/form-detail-TasksDetail.zip",
       "html_url": "https://github.com/4d-for-ios/form-detail-TasksDetail",
-      "image_url": "Specs/4d-for-ios-form-detail/4d-for-ios/form-detail-TasksDetail/0.0.1/logo.png",
-      "name": "Circle",
-      "preview_url": "Specs/4d-for-ios-form-detail/4d-for-ios/form-detail-TasksDetail/0.0.1/preview.gif",
+      "image_url": "Specs/4d-for-ios-form-detail/4d-for-ios/form-detail-TasksDetail/0.0.2/logo.png",
+      "name": "Tasks Detail",
+      "preview_url": "Specs/4d-for-ios-form-detail/4d-for-ios/form-detail-TasksDetail/0.0.2/preview.gif",
       "stargazers_count": 0,
       "stargazers_url": "https://api.github.com/repos/4d-for-ios/form-detail-TasksDetail/stargazers",
-      "version": "0.0.1"
+      "version": "0.0.2"
     },
     {
       "author": "4d-for-ios",
