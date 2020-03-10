@@ -44,7 +44,7 @@ cp -R $source ./$output/
 # return to clone
 echo "🌊 commit for ${GITHUB_SHA}"
 git add .
-git commit -m "Deploy website version based on ${GITHUB_SHA}"
+git commit -m "Copy specs based on ${GITHUB_SHA}"
 
 #git push origin ${DEPLOYMENT_BRANCH}
 echo "⬆️ push to ${DEPLOYMENT_BRANCH}"
