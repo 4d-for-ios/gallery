@@ -5,8 +5,7 @@ on:
     paths:
     - 'website/**'
     - '.github/workflows/website.yml'
-    - '.github/publish-gh-pages.sh' 
-    - 'Specs/*/index.json' 
+    - '.github/publish-gh-pages.sh'
 jobs:
   update:
     name: website
