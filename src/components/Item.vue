@@ -3,15 +3,7 @@
     <div class="flex-column bg-white rounded-1 box-shadow border text-inherit no-underline">
       <div class="d-flex flex-row">
         <div class="col-3 col-sm-3 v-align-middle pt-1 pl-1">
-          <img 
-            v-if="item.has_preview"
-            v-bind:src="item.image_url"
-            v-img:items='{title: item.name, cursor: "zoom-in", opened: openG, changed: changed }'
-            class = "preview"
-            :data-download_url="item.download_url"
-          />
           <img
-            v-else
             class = "image"
             :src="item.image_url"
           />
