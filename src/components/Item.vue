@@ -3,7 +3,13 @@
     <div class="flex-column bg-white rounded-1 box-shadow border text-inherit no-underline">
       <div class="d-flex flex-row">
         <div class="col-3 col-sm-3 v-align-middle pt-1 pl-1">
+          <img 
+            v-if="item.has_preview"
+            class = "preview"
+            :src="item.image_url"
+          />
           <img
+            v-else
             class = "image"
             :src="item.image_url"
           />
