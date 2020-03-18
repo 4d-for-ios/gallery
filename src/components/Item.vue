@@ -148,6 +148,7 @@ export default {
 <style scoped>
 .preview {
   max-width: 50px;
+  height: 100px;
 }
 .image {
   max-width: 80px;
