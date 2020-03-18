@@ -182,7 +182,7 @@
     "zipball_url": "https://api.github.com/repos/4d-for-ios/formatter-Phone/zipball/0.0.1"
   },
   "releases_url": "https://api.github.com/repos/4d-for-ios/formatter-Phone/releases{/id}",
-  "size": 31,
+  "size": 32,
   "ssh_url": "git@github.com:4d-for-ios/formatter-Phone.git",
   "stargazers_count": 0,
   "stargazers_url": "https://api.github.com/repos/4d-for-ios/formatter-Phone/stargazers",
