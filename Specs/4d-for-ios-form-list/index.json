@@ -289,15 +289,15 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS List Form template",
-      "download_count": 29,
-      "download_url": "https://github.com/4d-for-ios/form-list-TasksCollection/releases/download/0.0.1/form-list-TasksCollection.zip",
+      "download_count": 0,
+      "download_url": "https://github.com/4d-for-ios/form-list-TasksCollection/releases/download/0.0.2/form-list-TasksCollection.zip",
       "html_url": "https://github.com/4d-for-ios/form-list-TasksCollection",
-      "image_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-TasksCollection/0.0.1/logo.png",
+      "image_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-TasksCollection/0.0.2/logo.png",
       "name": "Tasks Collection",
-      "preview_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-TasksCollection/0.0.1/preview.gif",
+      "preview_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-TasksCollection/0.0.2/preview.gif",
       "stargazers_count": 0,
       "stargazers_url": "https://api.github.com/repos/4d-for-ios/form-list-TasksCollection/stargazers",
-      "version": "0.0.1"
+      "version": "0.0.2"
     },
     {
       "author": "4d-for-ios",
