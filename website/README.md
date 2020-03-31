@@ -10,6 +10,8 @@
 
 ### Dev preview
 
+with live server 
+
 ```bash
 % npm run dev  
 ```
