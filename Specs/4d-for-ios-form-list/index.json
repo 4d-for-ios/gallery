@@ -16,7 +16,7 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS List Form template",
-      "download_count": 66,
+      "download_count": 67,
       "download_url": "https://github.com/4d-for-ios/form-list-ClientList/releases/download/0.0.1/form-list-ClientList.zip",
       "html_url": "https://github.com/4d-for-ios/form-list-ClientList",
       "image_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-ClientList/0.0.1/logo.png",
@@ -133,7 +133,7 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS List Form template",
-      "download_count": 33,
+      "download_count": 35,
       "download_url": "https://github.com/4d-for-ios/form-list-MapList/releases/download/0.0.1/form-list-MapList.zip",
       "html_url": "https://github.com/4d-for-ios/form-list-MapList",
       "image_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-MapList/0.0.1/logo.png",
@@ -185,7 +185,7 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS List Form template",
-      "download_count": 18,
+      "download_count": 19,
       "download_url": "https://github.com/4d-for-ios/form-list-Profile/releases/download/0.0.1/form-list-Profile.zip",
       "html_url": "https://github.com/4d-for-ios/form-list-Profile",
       "image_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-Profile/0.0.1/logo.png",
@@ -224,7 +224,7 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS List Form template",
-      "download_count": 18,
+      "download_count": 19,
       "download_url": "https://github.com/4d-for-ios/form-list-SimpleVisualTable/releases/download/0.0.1/form-list-SimpleVisualTable.zip",
       "html_url": "https://github.com/4d-for-ios/form-list-SimpleVisualTable",
       "image_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-SimpleVisualTable/0.0.1/logo.png",
@@ -237,7 +237,7 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS List Form template",
-      "download_count": 18,
+      "download_count": 19,
       "download_url": "https://github.com/4d-for-ios/form-list-SlantedCollection/releases/download/0.0.1/form-list-SlantedCollection.zip",
       "html_url": "https://github.com/4d-for-ios/form-list-SlantedCollection",
       "image_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-SlantedCollection/0.0.1/logo.png",
@@ -263,7 +263,7 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS List Form template",
-      "download_count": 18,
+      "download_count": 19,
       "download_url": "https://github.com/4d-for-ios/form-list-SquareProfile/releases/download/0.0.1/form-list-SquareProfile.zip",
       "html_url": "https://github.com/4d-for-ios/form-list-SquareProfile",
       "image_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-SquareProfile/0.0.1/logo.png",
@@ -289,15 +289,15 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS List Form template",
-      "download_count": 28,
-      "download_url": "https://github.com/4d-for-ios/form-list-TasksCollection/releases/download/0.0.1/form-list-TasksCollection.zip",
+      "download_count": 1,
+      "download_url": "https://github.com/4d-for-ios/form-list-TasksCollection/releases/download/0.0.2/form-list-TasksCollection.zip",
       "html_url": "https://github.com/4d-for-ios/form-list-TasksCollection",
-      "image_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-TasksCollection/0.0.1/logo.png",
+      "image_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-TasksCollection/0.0.2/logo.png",
       "name": "Tasks Collection",
-      "preview_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-TasksCollection/0.0.1/preview.gif",
+      "preview_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-TasksCollection/0.0.2/preview.gif",
       "stargazers_count": 0,
       "stargazers_url": "https://api.github.com/repos/4d-for-ios/form-list-TasksCollection/stargazers",
-      "version": "0.0.1"
+      "version": "0.0.2"
     },
     {
       "author": "4d-for-ios",
