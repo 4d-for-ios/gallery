@@ -3,6 +3,19 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS List Form template",
+      "download_count": 51,
+      "download_url": "https://github.com/4d-for-ios/form-list-CardsTable/releases/download/0.0.1/form-list-CardsTable.zip",
+      "html_url": "https://github.com/4d-for-ios/form-list-CardsTable",
+      "image_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-CardsTable/0.0.1/logo.png",
+      "name": "Cards List",
+      "preview_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-CardsTable/0.0.1/preview.gif",
+      "stargazers_count": 0,
+      "stargazers_url": "https://api.github.com/repos/4d-for-ios/form-list-CardsTable/stargazers",
+      "version": "0.0.1"
+    },
+    {
+      "author": "4d-for-ios",
+      "description": "4D for iOS List Form template",
       "download_count": 74,
       "download_url": "https://github.com/4d-for-ios/form-list-ClientList/releases/download/0.0.1/form-list-ClientList.zip",
       "html_url": "https://github.com/4d-for-ios/form-list-ClientList",
