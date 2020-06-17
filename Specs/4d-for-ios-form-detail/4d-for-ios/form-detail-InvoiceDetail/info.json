@@ -5,7 +5,6 @@
   "blobs_url": "https://api.github.com/repos/4d-for-ios/form-detail-InvoiceDetail/git/blobs{/sha}",
   "branches_url": "https://api.github.com/repos/4d-for-ios/form-detail-InvoiceDetail/branches{/branch}",
   "clone_url": "https://github.com/4d-for-ios/form-detail-InvoiceDetail.git",
-  "code_of_conduct": null,
   "collaborators_url": "https://api.github.com/repos/4d-for-ios/form-detail-InvoiceDetail/collaborators{/collaborator}",
   "comments_url": "https://api.github.com/repos/4d-for-ios/form-detail-InvoiceDetail/comments{/number}",
   "commits_url": "https://api.github.com/repos/4d-for-ios/form-detail-InvoiceDetail/commits{/sha}",

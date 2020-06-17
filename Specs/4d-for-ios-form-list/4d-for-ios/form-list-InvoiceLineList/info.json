@@ -5,7 +5,6 @@
   "blobs_url": "https://api.github.com/repos/4d-for-ios/form-list-InvoiceLineList/git/blobs{/sha}",
   "branches_url": "https://api.github.com/repos/4d-for-ios/form-list-InvoiceLineList/branches{/branch}",
   "clone_url": "https://github.com/4d-for-ios/form-list-InvoiceLineList.git",
-  "code_of_conduct": null,
   "collaborators_url": "https://api.github.com/repos/4d-for-ios/form-list-InvoiceLineList/collaborators{/collaborator}",
   "comments_url": "https://api.github.com/repos/4d-for-ios/form-list-InvoiceLineList/comments{/number}",
   "commits_url": "https://api.github.com/repos/4d-for-ios/form-list-InvoiceLineList/commits{/sha}",

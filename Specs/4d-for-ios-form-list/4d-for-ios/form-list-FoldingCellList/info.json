@@ -5,7 +5,6 @@
   "blobs_url": "https://api.github.com/repos/4d-for-ios/form-list-FoldingCellList/git/blobs{/sha}",
   "branches_url": "https://api.github.com/repos/4d-for-ios/form-list-FoldingCellList/branches{/branch}",
   "clone_url": "https://github.com/4d-for-ios/form-list-FoldingCellList.git",
-  "code_of_conduct": null,
   "collaborators_url": "https://api.github.com/repos/4d-for-ios/form-list-FoldingCellList/collaborators{/collaborator}",
   "comments_url": "https://api.github.com/repos/4d-for-ios/form-list-FoldingCellList/comments{/number}",
   "commits_url": "https://api.github.com/repos/4d-for-ios/form-list-FoldingCellList/commits{/sha}",
