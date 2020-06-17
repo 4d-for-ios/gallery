@@ -5,6 +5,7 @@
   "blobs_url": "https://api.github.com/repos/4d-for-ios/form-detail-Tasks/git/blobs{/sha}",
   "branches_url": "https://api.github.com/repos/4d-for-ios/form-detail-Tasks/branches{/branch}",
   "clone_url": "https://github.com/4d-for-ios/form-detail-Tasks.git",
+  "code_of_conduct": null,
   "collaborators_url": "https://api.github.com/repos/4d-for-ios/form-detail-Tasks/collaborators{/collaborator}",
   "comments_url": "https://api.github.com/repos/4d-for-ios/form-detail-Tasks/comments{/number}",
   "commits_url": "https://api.github.com/repos/4d-for-ios/form-detail-Tasks/commits{/sha}",

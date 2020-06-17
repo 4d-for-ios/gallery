@@ -5,6 +5,7 @@
   "blobs_url": "https://api.github.com/repos/4d-for-ios/form-detail-SimpleList/git/blobs{/sha}",
   "branches_url": "https://api.github.com/repos/4d-for-ios/form-detail-SimpleList/branches{/branch}",
   "clone_url": "https://github.com/4d-for-ios/form-detail-SimpleList.git",
+  "code_of_conduct": null,
   "collaborators_url": "https://api.github.com/repos/4d-for-ios/form-detail-SimpleList/collaborators{/collaborator}",
   "comments_url": "https://api.github.com/repos/4d-for-ios/form-detail-SimpleList/comments{/number}",
   "commits_url": "https://api.github.com/repos/4d-for-ios/form-detail-SimpleList/commits{/sha}",

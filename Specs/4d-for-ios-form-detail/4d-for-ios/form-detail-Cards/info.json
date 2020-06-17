@@ -5,6 +5,7 @@
   "blobs_url": "https://api.github.com/repos/4d-for-ios/form-detail-Cards/git/blobs{/sha}",
   "branches_url": "https://api.github.com/repos/4d-for-ios/form-detail-Cards/branches{/branch}",
   "clone_url": "https://github.com/4d-for-ios/form-detail-Cards.git",
+  "code_of_conduct": null,
   "collaborators_url": "https://api.github.com/repos/4d-for-ios/form-detail-Cards/collaborators{/collaborator}",
   "comments_url": "https://api.github.com/repos/4d-for-ios/form-detail-Cards/comments{/number}",
   "commits_url": "https://api.github.com/repos/4d-for-ios/form-detail-Cards/commits{/sha}",
