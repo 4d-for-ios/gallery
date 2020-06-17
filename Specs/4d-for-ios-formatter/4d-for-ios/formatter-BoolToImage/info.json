@@ -5,7 +5,6 @@
   "blobs_url": "https://api.github.com/repos/4d-for-ios/formatter-BoolToImage/git/blobs{/sha}",
   "branches_url": "https://api.github.com/repos/4d-for-ios/formatter-BoolToImage/branches{/branch}",
   "clone_url": "https://github.com/4d-for-ios/formatter-BoolToImage.git",
-  "code_of_conduct": null,
   "collaborators_url": "https://api.github.com/repos/4d-for-ios/formatter-BoolToImage/collaborators{/collaborator}",
   "comments_url": "https://api.github.com/repos/4d-for-ios/formatter-BoolToImage/comments{/number}",
   "commits_url": "https://api.github.com/repos/4d-for-ios/formatter-BoolToImage/commits{/sha}",

@@ -5,7 +5,6 @@
   "blobs_url": "https://api.github.com/repos/4d-for-ios/form-detail-TripleCircle/git/blobs{/sha}",
   "branches_url": "https://api.github.com/repos/4d-for-ios/form-detail-TripleCircle/branches{/branch}",
   "clone_url": "https://github.com/4d-for-ios/form-detail-TripleCircle.git",
-  "code_of_conduct": null,
   "collaborators_url": "https://api.github.com/repos/4d-for-ios/form-detail-TripleCircle/collaborators{/collaborator}",
   "comments_url": "https://api.github.com/repos/4d-for-ios/form-detail-TripleCircle/comments{/number}",
   "commits_url": "https://api.github.com/repos/4d-for-ios/form-detail-TripleCircle/commits{/sha}",

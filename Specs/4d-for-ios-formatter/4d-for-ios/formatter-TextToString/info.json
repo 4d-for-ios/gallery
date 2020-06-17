@@ -5,7 +5,6 @@
   "blobs_url": "https://api.github.com/repos/4d-for-ios/formatter-TextToString/git/blobs{/sha}",
   "branches_url": "https://api.github.com/repos/4d-for-ios/formatter-TextToString/branches{/branch}",
   "clone_url": "https://github.com/4d-for-ios/formatter-TextToString.git",
-  "code_of_conduct": null,
   "collaborators_url": "https://api.github.com/repos/4d-for-ios/formatter-TextToString/collaborators{/collaborator}",
   "comments_url": "https://api.github.com/repos/4d-for-ios/formatter-TextToString/comments{/number}",
   "commits_url": "https://api.github.com/repos/4d-for-ios/formatter-TextToString/commits{/sha}",
