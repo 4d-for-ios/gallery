@@ -106,7 +106,7 @@
   },
   "private": false,
   "pulls_url": "https://api.github.com/repos/4d-for-ios/form-list-MapList/pulls{/number}",
-  "pushed_at": "2020-07-02T11:48:31Z",
+  "pushed_at": "2020-07-02T12:26:45Z",
   "release": {
     "assets": [
       {
@@ -182,7 +182,7 @@
     "zipball_url": "https://api.github.com/repos/4d-for-ios/form-list-MapList/zipball/0.0.1"
   },
   "releases_url": "https://api.github.com/repos/4d-for-ios/form-list-MapList/releases{/id}",
-  "size": 2467,
+  "size": 2479,
   "ssh_url": "git@github.com:4d-for-ios/form-list-MapList.git",
   "stargazers_count": 0,
   "stargazers_url": "https://api.github.com/repos/4d-for-ios/form-list-MapList/stargazers",
@@ -195,7 +195,7 @@
   "teams_url": "https://api.github.com/repos/4d-for-ios/form-list-MapList/teams",
   "temp_clone_token": "",
   "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-MapList/git/trees{/sha}",
-  "updated_at": "2020-07-02T11:48:33Z",
+  "updated_at": "2020-07-02T12:26:48Z",
   "url": "https://api.github.com/repos/4d-for-ios/form-list-MapList",
   "visibility": "public",
   "watchers": 0,
