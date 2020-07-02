@@ -106,7 +106,7 @@
   },
   "private": false,
   "pulls_url": "https://api.github.com/repos/4d-for-ios/form-list-MapList/pulls{/number}",
-  "pushed_at": "2020-01-17T09:03:21Z",
+  "pushed_at": "2020-07-02T09:57:26Z",
   "release": {
     "assets": [
       {
@@ -195,7 +195,7 @@
   "teams_url": "https://api.github.com/repos/4d-for-ios/form-list-MapList/teams",
   "temp_clone_token": "",
   "trees_url": "https://api.github.com/repos/4d-for-ios/form-list-MapList/git/trees{/sha}",
-  "updated_at": "2020-01-17T09:03:23Z",
+  "updated_at": "2020-07-02T09:57:28Z",
   "url": "https://api.github.com/repos/4d-for-ios/form-list-MapList",
   "visibility": "public",
   "watchers": 0,
