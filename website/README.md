@@ -21,6 +21,7 @@ with live server
 ```bash
 % npm run build  
 ```
+
 output in `dist` directory. 
 
 ## Build with?
@@ -40,4 +41,9 @@ _Configuring npm for use with GitHub Packages_
 https://help.github.com/en/github/managing-packages-with-github-packages/configuring-npm-for-use-with-github-packages
 
 ### css
+
 - [primer.css](https://primer.style/css/)
+
+### TODO
+
+- [ ] update website on Spec change because Spec data are now in github pages, and not on github website
