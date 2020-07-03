@@ -68,6 +68,19 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS List Form template",
+      "download_count": 0,
+      "download_url": "https://github.com/4d-for-ios/form-list-FoldingCellList/releases/download/0.0.3/form-list-FoldingCellList.zip",
+      "html_url": "https://github.com/4d-for-ios/form-list-FoldingCellList",
+      "image_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-FoldingCellList/0.0.3/logo.png",
+      "name": "Folding Cell List",
+      "preview_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-FoldingCellList/0.0.3/preview.gif",
+      "stargazers_count": 0,
+      "stargazers_url": "https://api.github.com/repos/4d-for-ios/form-list-FoldingCellList/stargazers",
+      "version": "0.0.3"
+    },
+    {
+      "author": "4d-for-ios",
+      "description": "4D for iOS List Form template",
       "download_count": 29,
       "download_url": "https://github.com/4d-for-ios/form-list-FourLabelsList/releases/download/0.0.1/form-list-FourLabelsList.zip",
       "html_url": "https://github.com/4d-for-ios/form-list-FourLabelsList",
@@ -120,7 +133,7 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS List Form template",
-      "download_count": 0,
+      "download_count": 1,
       "download_url": "https://github.com/4d-for-ios/form-list-MapList/releases/download/0.0.2/form-list-MapList.zip",
       "html_url": "https://github.com/4d-for-ios/form-list-MapList",
       "image_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-MapList/0.0.2/logo.png",
