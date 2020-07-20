@@ -40,4 +40,4 @@ jobs:
           rm -f .build/release/gallery-workflow
           git add .
           git diff --quiet && git diff --staged --quiet || git commit -a -m "🔄 Update"
-          ./.github/push.sh "master" "${{ secrets.GITHUB_PUBLISH_TOKEN }}"
+          ./.github/push.sh "master" "${{ secrets.GITHUB_TOKEN }}"
