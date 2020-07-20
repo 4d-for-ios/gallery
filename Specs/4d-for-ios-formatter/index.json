@@ -99,7 +99,7 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS Data Formatter",
-      "download_count": 16,
+      "download_count": 17,
       "download_url": "https://github.com/4d-for-ios/formatter-TextToImage/releases/download/0.0.1/formatter-TextToImage.zip",
       "html_url": "https://github.com/4d-for-ios/formatter-TextToImage",
       "image_url": "Specs/4d-for-ios-formatter/4d-for-ios/formatter-TextToImage/0.0.1/logo.png",
@@ -131,6 +131,18 @@
       "stargazers_count": 0,
       "stargazers_url": "https://api.github.com/repos/4d-for-ios/formatter-Url/stargazers",
       "version": "0.0.1"
+    },
+    {
+      "author": "4d-for-ios",
+      "description": "Download url and open activity form to choose what to do with the file",
+      "download_count": 6,
+      "download_url": "https://github.com/4d-for-ios/formatter-DownloadActivity/releases/download/0.0.2/formatter-DownloadActivity.zip",
+      "html_url": "https://github.com/4d-for-ios/formatter-DownloadActivity",
+      "image_url": "Specs/4d-for-ios-formatter/4d-for-ios/formatter-DownloadActivity/0.0.2/logo.png",
+      "name": "downloadActivity",
+      "stargazers_count": 0,
+      "stargazers_url": "https://api.github.com/repos/4d-for-ios/formatter-DownloadActivity/stargazers",
+      "version": "0.0.2"
     }
   ]
 }
