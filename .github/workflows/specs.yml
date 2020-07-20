@@ -4,7 +4,7 @@ on:
   push:
     paths:
     - '.github/workflows/specs.yml'
-    - 'Specs/*' 
+    - 'Specs/**' 
 jobs:
   update:
     name: specs
