@@ -237,15 +237,15 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS List Form template",
-      "download_count": 7,
-      "download_url": "https://github.com/4d-for-ios/form-list-SlantedCollection/releases/download/0.0.2/form-list-SlantedCollection.zip",
+      "download_count": 0,
+      "download_url": "https://github.com/4d-for-ios/form-list-SlantedCollection/releases/download/0.0.3/form-list-SlantedCollection.zip",
       "html_url": "https://github.com/4d-for-ios/form-list-SlantedCollection",
-      "image_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-SlantedCollection/0.0.2/logo.png",
+      "image_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-SlantedCollection/0.0.3/logo.png",
       "name": "Slanted Collection",
-      "preview_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-SlantedCollection/0.0.2/preview.gif",
+      "preview_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-SlantedCollection/0.0.3/preview.gif",
       "stargazers_count": 0,
       "stargazers_url": "https://api.github.com/repos/4d-for-ios/form-list-SlantedCollection/stargazers",
-      "version": "0.0.2"
+      "version": "0.0.3"
     },
     {
       "author": "4d-for-ios",
@@ -341,15 +341,15 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS List Form template",
-      "download_count": 22,
-      "download_url": "https://github.com/4d-for-ios/form-list-VisualTable/releases/download/0.0.1/form-list-VisualTable.zip",
+      "download_count": 0,
+      "download_url": "https://github.com/4d-for-ios/form-list-VisualTable/releases/download/0.0.2/form-list-VisualTable.zip",
       "html_url": "https://github.com/4d-for-ios/form-list-VisualTable",
-      "image_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-VisualTable/0.0.1/logo.png",
+      "image_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-VisualTable/0.0.2/logo.png",
       "name": "Visual Table",
-      "preview_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-VisualTable/0.0.1/preview.gif",
+      "preview_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-VisualTable/0.0.2/preview.gif",
       "stargazers_count": 0,
       "stargazers_url": "https://api.github.com/repos/4d-for-ios/form-list-VisualTable/stargazers",
-      "version": "0.0.1"
+      "version": "0.0.2"
     }
   ]
 }
