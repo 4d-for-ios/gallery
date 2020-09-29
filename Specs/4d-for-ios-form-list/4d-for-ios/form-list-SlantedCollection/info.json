@@ -113,7 +113,7 @@
         "browser_download_url": "https://github.com/4d-for-ios/form-list-SlantedCollection/releases/download/0.0.3/form-list-SlantedCollection.zip",
         "content_type": "application/zip",
         "created_at": "2020-09-29T06:57:27Z",
-        "download_count": 0,
+        "download_count": 2,
         "id": 26309146,
         "label": "",
         "name": "form-list-SlantedCollection.zip",
@@ -182,7 +182,7 @@
     "zipball_url": "https://api.github.com/repos/4d-for-ios/form-list-SlantedCollection/zipball/0.0.3"
   },
   "releases_url": "https://api.github.com/repos/4d-for-ios/form-list-SlantedCollection/releases{/id}",
-  "size": 24575,
+  "size": 27370,
   "ssh_url": "git@github.com:4d-for-ios/form-list-SlantedCollection.git",
   "stargazers_count": 0,
   "stargazers_url": "https://api.github.com/repos/4d-for-ios/form-list-SlantedCollection/stargazers",
