@@ -3,7 +3,7 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS Data Formatter",
-      "download_count": 33,
+      "download_count": 34,
       "download_url": "https://github.com/4d-for-ios/formatter-Address/releases/download/0.0.1/formatter-Address.zip",
       "html_url": "https://github.com/4d-for-ios/formatter-Address",
       "image_url": "Specs/4d-for-ios-formatter/4d-for-ios/formatter-Address/0.0.1/logo.png",
@@ -15,7 +15,7 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS Data Formatter",
-      "download_count": 26,
+      "download_count": 27,
       "download_url": "https://github.com/4d-for-ios/formatter-BoolToImage/releases/download/0.0.1/formatter-BoolToImage.zip",
       "html_url": "https://github.com/4d-for-ios/formatter-BoolToImage",
       "image_url": "Specs/4d-for-ios-formatter/4d-for-ios/formatter-BoolToImage/0.0.1/logo.png",
@@ -27,7 +27,7 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS Data Formatter",
-      "download_count": 19,
+      "download_count": 20,
       "download_url": "https://github.com/4d-for-ios/formatter-Emoji/releases/download/0.0.1/formatter-Emoji.zip",
       "html_url": "https://github.com/4d-for-ios/formatter-Emoji",
       "image_url": "Specs/4d-for-ios-formatter/4d-for-ios/formatter-Emoji/0.0.1/logo.png",
@@ -75,7 +75,7 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS Data Formatter",
-      "download_count": 60,
+      "download_count": 62,
       "download_url": "https://github.com/4d-for-ios/formatter-Mail/releases/download/0.0.1/formatter-Mail.zip",
       "html_url": "https://github.com/4d-for-ios/formatter-Mail",
       "image_url": "Specs/4d-for-ios-formatter/4d-for-ios/formatter-Mail/0.0.1/logo.png",
@@ -87,7 +87,7 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS Data Formatter",
-      "download_count": 40,
+      "download_count": 41,
       "download_url": "https://github.com/4d-for-ios/formatter-Phone/releases/download/0.0.1/formatter-Phone.zip",
       "html_url": "https://github.com/4d-for-ios/formatter-Phone",
       "image_url": "Specs/4d-for-ios-formatter/4d-for-ios/formatter-Phone/0.0.1/logo.png",
@@ -123,7 +123,7 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS Data Formatter",
-      "download_count": 28,
+      "download_count": 29,
       "download_url": "https://github.com/4d-for-ios/formatter-Url/releases/download/0.0.1/formatter-Url.zip",
       "html_url": "https://github.com/4d-for-ios/formatter-Url",
       "image_url": "Specs/4d-for-ios-formatter/4d-for-ios/formatter-Url/0.0.1/logo.png",
@@ -135,7 +135,7 @@
     {
       "author": "4d-for-ios",
       "description": "Download url and open activity form to choose what to do with the file",
-      "download_count": 8,
+      "download_count": 9,
       "download_url": "https://github.com/4d-for-ios/formatter-DownloadActivity/releases/download/0.0.2/formatter-DownloadActivity.zip",
       "html_url": "https://github.com/4d-for-ios/formatter-DownloadActivity",
       "image_url": "Specs/4d-for-ios-formatter/4d-for-ios/formatter-DownloadActivity/0.0.2/logo.png",
