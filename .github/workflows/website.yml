@@ -4,6 +4,7 @@ on:
   push:
     paths:
     - 'website/**'
+    - 'Specs/**'
     - '.github/workflows/website.yml'
     - '.github/publish-gh-pages.sh'
 jobs:
