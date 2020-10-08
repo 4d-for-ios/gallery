@@ -106,21 +106,21 @@
   },
   "private": false,
   "pulls_url": "https://api.github.com/repos/4d-for-ios/form-list-FoldingCellList/pulls{/number}",
-  "pushed_at": "2020-10-01T13:53:31Z",
+  "pushed_at": "2020-10-08T09:26:03Z",
   "release": {
     "assets": [
       {
-        "browser_download_url": "https://github.com/4d-for-ios/form-list-FoldingCellList/releases/download/0.0.3/form-list-FoldingCellList.zip",
+        "browser_download_url": "https://github.com/4d-for-ios/form-list-FoldingCellList/releases/download/0.0.4/form-list-FoldingCellList.zip",
         "content_type": "application/zip",
-        "created_at": "2020-07-03T10:01:09Z",
-        "download_count": 7,
-        "id": 22489467,
+        "created_at": "2020-10-08T09:26:30Z",
+        "download_count": 0,
+        "id": 26696707,
         "label": "",
         "name": "form-list-FoldingCellList.zip",
-        "node_id": "MDEyOlJlbGVhc2VBc3NldDIyNDg5NDY3",
-        "size": 12087074,
+        "node_id": "MDEyOlJlbGVhc2VBc3NldDI2Njk2NzA3",
+        "size": 12137215,
         "state": "uploaded",
-        "updated_at": "2020-07-03T10:01:09Z",
+        "updated_at": "2020-10-08T09:26:32Z",
         "uploader": {
           "avatar_url": "https://avatars2.githubusercontent.com/in/15368?v=4",
           "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -141,10 +141,10 @@
           "type": "Bot",
           "url": "https://api.github.com/users/github-actions%5Bbot%5D"
         },
-        "url": "https://api.github.com/repos/4d-for-ios/form-list-FoldingCellList/releases/assets/22489467"
+        "url": "https://api.github.com/repos/4d-for-ios/form-list-FoldingCellList/releases/assets/26696707"
       }
     ],
-    "assets_url": "https://api.github.com/repos/4d-for-ios/form-list-FoldingCellList/releases/28192900/assets",
+    "assets_url": "https://api.github.com/repos/4d-for-ios/form-list-FoldingCellList/releases/32311159/assets",
     "author": {
       "avatar_url": "https://avatars0.githubusercontent.com/u/38908668?v=4",
       "events_url": "https://api.github.com/users/DavAz4D/events{/privacy}",
@@ -165,21 +165,21 @@
       "type": "User",
       "url": "https://api.github.com/users/DavAz4D"
     },
-    "body": "SDK update for iOS 13.5",
-    "created_at": "2020-07-03T09:56:47Z",
+    "body": "iOS 14 update",
+    "created_at": "2020-10-01T13:53:19Z",
     "draft": false,
-    "html_url": "https://github.com/4d-for-ios/form-list-FoldingCellList/releases/tag/0.0.3",
-    "id": 28192900,
-    "name": "0.0.3",
-    "node_id": "MDc6UmVsZWFzZTI4MTkyOTAw",
+    "html_url": "https://github.com/4d-for-ios/form-list-FoldingCellList/releases/tag/0.0.4",
+    "id": 32311159,
+    "name": "0.0.4",
+    "node_id": "MDc6UmVsZWFzZTMyMzExMTU5",
     "prerelease": false,
-    "published_at": "2020-07-03T10:00:45Z",
-    "tag_name": "0.0.3",
-    "tarball_url": "https://api.github.com/repos/4d-for-ios/form-list-FoldingCellList/tarball/0.0.3",
+    "published_at": "2020-10-08T09:26:03Z",
+    "tag_name": "0.0.4",
+    "tarball_url": "https://api.github.com/repos/4d-for-ios/form-list-FoldingCellList/tarball/0.0.4",
     "target_commitish": "master",
-    "upload_url": "https://uploads.github.com/repos/4d-for-ios/form-list-FoldingCellList/releases/28192900/assets{?name,label}",
-    "url": "https://api.github.com/repos/4d-for-ios/form-list-FoldingCellList/releases/28192900",
-    "zipball_url": "https://api.github.com/repos/4d-for-ios/form-list-FoldingCellList/zipball/0.0.3"
+    "upload_url": "https://uploads.github.com/repos/4d-for-ios/form-list-FoldingCellList/releases/32311159/assets{?name,label}",
+    "url": "https://api.github.com/repos/4d-for-ios/form-list-FoldingCellList/releases/32311159",
+    "zipball_url": "https://api.github.com/repos/4d-for-ios/form-list-FoldingCellList/zipball/0.0.4"
   },
   "releases_url": "https://api.github.com/repos/4d-for-ios/form-list-FoldingCellList/releases{/id}",
   "size": 45740,
