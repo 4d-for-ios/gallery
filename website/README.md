@@ -44,6 +44,6 @@ https://help.github.com/en/github/managing-packages-with-github-packages/configu
 
 - [primer.css](https://primer.style/css/)
 
-### Bug
+### Todo
 
 - [ ] update website on Spec change because Spec data are now in github pages, and not on github website 
