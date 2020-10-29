@@ -1,5 +1,4 @@
 name: 🌍 website
-
 on:
   push:
     paths:
