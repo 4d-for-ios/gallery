@@ -68,15 +68,15 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS List Form template",
-      "download_count": 4,
-      "download_url": "https://github.com/4d-for-ios/form-list-FoldingCellList/releases/download/0.0.4/form-list-FoldingCellList.zip",
+      "download_count": 0,
+      "download_url": "https://github.com/4d-for-ios/form-list-FoldingCellList/releases/download/0.0.5/form-list-FoldingCellList.zip",
       "html_url": "https://github.com/4d-for-ios/form-list-FoldingCellList",
-      "image_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-FoldingCellList/0.0.4/logo.png",
+      "image_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-FoldingCellList/0.0.5/logo.png",
       "name": "Folding Cell List",
-      "preview_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-FoldingCellList/0.0.4/preview.gif",
+      "preview_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-FoldingCellList/0.0.5/preview.gif",
       "stargazers_count": 0,
       "stargazers_url": "https://api.github.com/repos/4d-for-ios/form-list-FoldingCellList/stargazers",
-      "version": "0.0.4"
+      "version": "0.0.5"
     },
     {
       "author": "4d-for-ios",
@@ -237,15 +237,15 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS List Form template",
-      "download_count": 6,
-      "download_url": "https://github.com/4d-for-ios/form-list-SlantedCollection/releases/download/0.0.3/form-list-SlantedCollection.zip",
+      "download_count": 0,
+      "download_url": "https://github.com/4d-for-ios/form-list-SlantedCollection/releases/download/0.0.4/form-list-SlantedCollection.zip",
       "html_url": "https://github.com/4d-for-ios/form-list-SlantedCollection",
-      "image_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-SlantedCollection/0.0.3/logo.png",
+      "image_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-SlantedCollection/0.0.4/logo.png",
       "name": "Slanted Collection",
-      "preview_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-SlantedCollection/0.0.3/preview.gif",
+      "preview_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-SlantedCollection/0.0.4/preview.gif",
       "stargazers_count": 0,
       "stargazers_url": "https://api.github.com/repos/4d-for-ios/form-list-SlantedCollection/stargazers",
-      "version": "0.0.3"
+      "version": "0.0.4"
     },
     {
       "author": "4d-for-ios",
