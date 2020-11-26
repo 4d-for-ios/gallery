@@ -39,7 +39,7 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS Data Formatter",
-      "download_count": 33,
+      "download_count": 34,
       "download_url": "https://github.com/4d-for-ios/formatter-Html/releases/download/0.0.1/formatter-Html.zip",
       "html_url": "https://github.com/4d-for-ios/formatter-Html",
       "image_url": "Specs/4d-for-ios-formatter/4d-for-ios/formatter-Html/0.0.1/logo.png",
@@ -135,7 +135,7 @@
     {
       "author": "4d-for-ios",
       "description": "Download url and open activity form to choose what to do with the file",
-      "download_count": 9,
+      "download_count": 10,
       "download_url": "https://github.com/4d-for-ios/formatter-DownloadActivity/releases/download/0.0.2/formatter-DownloadActivity.zip",
       "html_url": "https://github.com/4d-for-ios/formatter-DownloadActivity",
       "image_url": "Specs/4d-for-ios-formatter/4d-for-ios/formatter-DownloadActivity/0.0.2/logo.png",
