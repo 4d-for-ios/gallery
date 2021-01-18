@@ -1,1 +1,15 @@
-{"items":[{"author":"4d-for-ios","stargazers_count":0,"html_url":"https:\/\/github.com\/4d-for-ios\/form-login-SignInWithApple","download_count":15,"download_url":"https:\/\/github.com\/4d-for-ios\/form-login-SignInWithApple\/releases\/download\/0.0.2\/form-login-SignInWithApple.zip","stargazers_url":"https:\/\/api.github.com\/repos\/4d-for-ios\/form-login-SignInWithApple\/stargazers","version":"0.0.2","description":"4D for iOS Login Form template","name":"signinwithapple"}]}
+{
+  "items": [
+    {
+      "author": "4d-for-ios",
+      "description": "4D for iOS Login Form template",
+      "download_count": 15,
+      "download_url": "https://github.com/4d-for-ios/form-login-SignInWithApple/releases/download/0.0.2/form-login-SignInWithApple.zip",
+      "html_url": "https://github.com/4d-for-ios/form-login-SignInWithApple",
+      "name": "signinwithapple",
+      "stargazers_count": 0,
+      "stargazers_url": "https://api.github.com/repos/4d-for-ios/form-login-SignInWithApple/stargazers",
+      "version": "0.0.2"
+    }
+  ]
+}
