@@ -17,3 +17,4 @@ https://github.com/4d-for-ios/form-detail-TasksDetail
 https://github.com/4d-for-ios/form-detail-TasksPlus
 https://github.com/4d-for-ios/form-detail-TripleCircle
 https://github.com/4d-for-ios/form-detail-VisualContact
+https://github.com/mesopelagique/form-detail-WebArea
