@@ -1,1 +1,148 @@
-{"items":[{"author":"4d-for-ios","stargazers_count":0,"html_url":"https:\/\/github.com\/4d-for-ios\/formatter-Address","download_count":51,"download_url":"https:\/\/github.com\/4d-for-ios\/formatter-Address\/releases\/download\/0.0.1\/formatter-Address.zip","stargazers_url":"https:\/\/api.github.com\/repos\/4d-for-ios\/formatter-Address\/stargazers","version":"0.0.1","description":"4D for iOS Data Formatter","image_url":"Specs\/4d-for-ios-formatter\/4d-for-ios\/formatter-Address\/0.0.1\/logo.png","name":"address"},{"author":"4d-for-ios","stargazers_count":0,"html_url":"https:\/\/github.com\/4d-for-ios\/formatter-BoolToImage","download_count":35,"download_url":"https:\/\/github.com\/4d-for-ios\/formatter-BoolToImage\/releases\/download\/0.0.1\/formatter-BoolToImage.zip","stargazers_url":"https:\/\/api.github.com\/repos\/4d-for-ios\/formatter-BoolToImage\/stargazers","version":"0.0.1","description":"4D for iOS Data Formatter","image_url":"Specs\/4d-for-ios-formatter\/4d-for-ios\/formatter-BoolToImage\/0.0.1\/logo.png","name":"BoolToImage"},{"author":"4d-for-ios","stargazers_count":0,"html_url":"https:\/\/github.com\/4d-for-ios\/formatter-Emoji","download_count":28,"download_url":"https:\/\/github.com\/4d-for-ios\/formatter-Emoji\/releases\/download\/0.0.1\/formatter-Emoji.zip","stargazers_url":"https:\/\/api.github.com\/repos\/4d-for-ios\/formatter-Emoji\/stargazers","version":"0.0.1","description":"4D for iOS Data Formatter","image_url":"Specs\/4d-for-ios-formatter\/4d-for-ios\/formatter-Emoji\/0.0.1\/logo.png","name":"GenderEmoji"},{"author":"4d-for-ios","stargazers_count":0,"html_url":"https:\/\/github.com\/4d-for-ios\/formatter-Html","download_count":37,"download_url":"https:\/\/github.com\/4d-for-ios\/formatter-Html\/releases\/download\/0.0.1\/formatter-Html.zip","stargazers_url":"https:\/\/api.github.com\/repos\/4d-for-ios\/formatter-Html\/stargazers","version":"0.0.1","description":"4D for iOS Data Formatter","image_url":"Specs\/4d-for-ios-formatter\/4d-for-ios\/formatter-Html\/0.0.1\/logo.png","name":"htmlText"},{"author":"4d-for-ios","stargazers_count":0,"html_url":"https:\/\/github.com\/4d-for-ios\/formatter-IntToString","download_count":24,"download_url":"https:\/\/github.com\/4d-for-ios\/formatter-IntToString\/releases\/download\/0.0.1\/formatter-IntToString.zip","stargazers_url":"https:\/\/api.github.com\/repos\/4d-for-ios\/formatter-IntToString\/stargazers","version":"0.0.1","description":"4D for iOS Data Formatter","image_url":"Specs\/4d-for-ios-formatter\/4d-for-ios\/formatter-IntToString\/0.0.1\/logo.png","name":"integerToString"},{"author":"4d-for-ios","stargazers_count":0,"html_url":"https:\/\/github.com\/4d-for-ios\/formatter-IntegerToImage","download_count":23,"download_url":"https:\/\/github.com\/4d-for-ios\/formatter-IntegerToImage\/releases\/download\/0.0.1\/formatter-IntegerToImage.zip","stargazers_url":"https:\/\/api.github.com\/repos\/4d-for-ios\/formatter-IntegerToImage\/stargazers","version":"0.0.1","description":"4D for iOS Data Formatter","image_url":"Specs\/4d-for-ios-formatter\/4d-for-ios\/formatter-IntegerToImage\/0.0.1\/logo.png","name":"integerToImage"},{"author":"4d-for-ios","stargazers_count":0,"html_url":"https:\/\/github.com\/4d-for-ios\/formatter-Mail","download_count":68,"download_url":"https:\/\/github.com\/4d-for-ios\/formatter-Mail\/releases\/download\/0.0.1\/formatter-Mail.zip","stargazers_url":"https:\/\/api.github.com\/repos\/4d-for-ios\/formatter-Mail\/stargazers","version":"0.0.1","description":"4D for iOS Data Formatter","image_url":"Specs\/4d-for-ios-formatter\/4d-for-ios\/formatter-Mail\/0.0.1\/logo.png","name":"mail"},{"author":"4d-for-ios","stargazers_count":0,"html_url":"https:\/\/github.com\/4d-for-ios\/formatter-Phone","download_count":47,"download_url":"https:\/\/github.com\/4d-for-ios\/formatter-Phone\/releases\/download\/0.0.1\/formatter-Phone.zip","stargazers_url":"https:\/\/api.github.com\/repos\/4d-for-ios\/formatter-Phone\/stargazers","version":"0.0.1","description":"4D for iOS Data Formatter","image_url":"Specs\/4d-for-ios-formatter\/4d-for-ios\/formatter-Phone\/0.0.1\/logo.png","name":"phone"},{"author":"4d-for-ios","stargazers_count":0,"html_url":"https:\/\/github.com\/4d-for-ios\/formatter-TextToImage","download_count":24,"download_url":"https:\/\/github.com\/4d-for-ios\/formatter-TextToImage\/releases\/download\/0.0.1\/formatter-TextToImage.zip","stargazers_url":"https:\/\/api.github.com\/repos\/4d-for-ios\/formatter-TextToImage\/stargazers","version":"0.0.1","description":"4D for iOS Data Formatter","image_url":"Specs\/4d-for-ios-formatter\/4d-for-ios\/formatter-TextToImage\/0.0.1\/logo.png","name":"textToImage"},{"author":"4d-for-ios","stargazers_count":0,"html_url":"https:\/\/github.com\/4d-for-ios\/formatter-TextToString","download_count":26,"download_url":"https:\/\/github.com\/4d-for-ios\/formatter-TextToString\/releases\/download\/0.0.1\/formatter-TextToString.zip","stargazers_url":"https:\/\/api.github.com\/repos\/4d-for-ios\/formatter-TextToString\/stargazers","version":"0.0.1","description":"4D for iOS Data Formatter","image_url":"Specs\/4d-for-ios-formatter\/4d-for-ios\/formatter-TextToString\/0.0.1\/logo.png","name":"textToString"},{"author":"4d-for-ios","stargazers_count":0,"html_url":"https:\/\/github.com\/4d-for-ios\/formatter-Url","download_count":31,"download_url":"https:\/\/github.com\/4d-for-ios\/formatter-Url\/releases\/download\/0.0.1\/formatter-Url.zip","stargazers_url":"https:\/\/api.github.com\/repos\/4d-for-ios\/formatter-Url\/stargazers","version":"0.0.1","description":"4D for iOS Data Formatter","image_url":"Specs\/4d-for-ios-formatter\/4d-for-ios\/formatter-Url\/0.0.1\/logo.png","name":"url"},{"author":"4d-for-ios","stargazers_count":0,"html_url":"https:\/\/github.com\/4d-for-ios\/formatter-DownloadActivity","download_count":10,"download_url":"https:\/\/github.com\/4d-for-ios\/formatter-DownloadActivity\/releases\/download\/0.0.2\/formatter-DownloadActivity.zip","stargazers_url":"https:\/\/api.github.com\/repos\/4d-for-ios\/formatter-DownloadActivity\/stargazers","version":"0.0.2","description":"Download url and open activity form to choose what to do with the file","image_url":"Specs\/4d-for-ios-formatter\/4d-for-ios\/formatter-DownloadActivity\/0.0.2\/logo.png","name":"downloadActivity"}]}
+{
+  "items": [
+    {
+      "author": "4d-for-ios",
+      "description": "4D for iOS Data Formatter",
+      "download_count": 51,
+      "download_url": "https://github.com/4d-for-ios/formatter-Address/releases/download/0.0.1/formatter-Address.zip",
+      "html_url": "https://github.com/4d-for-ios/formatter-Address",
+      "image_url": "Specs/4d-for-ios-formatter/4d-for-ios/formatter-Address/0.0.1/logo.png",
+      "name": "address",
+      "stargazers_count": 0,
+      "stargazers_url": "https://api.github.com/repos/4d-for-ios/formatter-Address/stargazers",
+      "version": "0.0.1"
+    },
+    {
+      "author": "4d-for-ios",
+      "description": "4D for iOS Data Formatter",
+      "download_count": 35,
+      "download_url": "https://github.com/4d-for-ios/formatter-BoolToImage/releases/download/0.0.1/formatter-BoolToImage.zip",
+      "html_url": "https://github.com/4d-for-ios/formatter-BoolToImage",
+      "image_url": "Specs/4d-for-ios-formatter/4d-for-ios/formatter-BoolToImage/0.0.1/logo.png",
+      "name": "BoolToImage",
+      "stargazers_count": 0,
+      "stargazers_url": "https://api.github.com/repos/4d-for-ios/formatter-BoolToImage/stargazers",
+      "version": "0.0.1"
+    },
+    {
+      "author": "4d-for-ios",
+      "description": "4D for iOS Data Formatter",
+      "download_count": 28,
+      "download_url": "https://github.com/4d-for-ios/formatter-Emoji/releases/download/0.0.1/formatter-Emoji.zip",
+      "html_url": "https://github.com/4d-for-ios/formatter-Emoji",
+      "image_url": "Specs/4d-for-ios-formatter/4d-for-ios/formatter-Emoji/0.0.1/logo.png",
+      "name": "GenderEmoji",
+      "stargazers_count": 0,
+      "stargazers_url": "https://api.github.com/repos/4d-for-ios/formatter-Emoji/stargazers",
+      "version": "0.0.1"
+    },
+    {
+      "author": "4d-for-ios",
+      "description": "4D for iOS Data Formatter",
+      "download_count": 37,
+      "download_url": "https://github.com/4d-for-ios/formatter-Html/releases/download/0.0.1/formatter-Html.zip",
+      "html_url": "https://github.com/4d-for-ios/formatter-Html",
+      "image_url": "Specs/4d-for-ios-formatter/4d-for-ios/formatter-Html/0.0.1/logo.png",
+      "name": "htmlText",
+      "stargazers_count": 0,
+      "stargazers_url": "https://api.github.com/repos/4d-for-ios/formatter-Html/stargazers",
+      "version": "0.0.1"
+    },
+    {
+      "author": "4d-for-ios",
+      "description": "4D for iOS Data Formatter",
+      "download_count": 24,
+      "download_url": "https://github.com/4d-for-ios/formatter-IntToString/releases/download/0.0.1/formatter-IntToString.zip",
+      "html_url": "https://github.com/4d-for-ios/formatter-IntToString",
+      "image_url": "Specs/4d-for-ios-formatter/4d-for-ios/formatter-IntToString/0.0.1/logo.png",
+      "name": "integerToString",
+      "stargazers_count": 0,
+      "stargazers_url": "https://api.github.com/repos/4d-for-ios/formatter-IntToString/stargazers",
+      "version": "0.0.1"
+    },
+    {
+      "author": "4d-for-ios",
+      "description": "4D for iOS Data Formatter",
+      "download_count": 23,
+      "download_url": "https://github.com/4d-for-ios/formatter-IntegerToImage/releases/download/0.0.1/formatter-IntegerToImage.zip",
+      "html_url": "https://github.com/4d-for-ios/formatter-IntegerToImage",
+      "image_url": "Specs/4d-for-ios-formatter/4d-for-ios/formatter-IntegerToImage/0.0.1/logo.png",
+      "name": "integerToImage",
+      "stargazers_count": 0,
+      "stargazers_url": "https://api.github.com/repos/4d-for-ios/formatter-IntegerToImage/stargazers",
+      "version": "0.0.1"
+    },
+    {
+      "author": "4d-for-ios",
+      "description": "4D for iOS Data Formatter",
+      "download_count": 68,
+      "download_url": "https://github.com/4d-for-ios/formatter-Mail/releases/download/0.0.1/formatter-Mail.zip",
+      "html_url": "https://github.com/4d-for-ios/formatter-Mail",
+      "image_url": "Specs/4d-for-ios-formatter/4d-for-ios/formatter-Mail/0.0.1/logo.png",
+      "name": "mail",
+      "stargazers_count": 0,
+      "stargazers_url": "https://api.github.com/repos/4d-for-ios/formatter-Mail/stargazers",
+      "version": "0.0.1"
+    },
+    {
+      "author": "4d-for-ios",
+      "description": "4D for iOS Data Formatter",
+      "download_count": 47,
+      "download_url": "https://github.com/4d-for-ios/formatter-Phone/releases/download/0.0.1/formatter-Phone.zip",
+      "html_url": "https://github.com/4d-for-ios/formatter-Phone",
+      "image_url": "Specs/4d-for-ios-formatter/4d-for-ios/formatter-Phone/0.0.1/logo.png",
+      "name": "phone",
+      "stargazers_count": 0,
+      "stargazers_url": "https://api.github.com/repos/4d-for-ios/formatter-Phone/stargazers",
+      "version": "0.0.1"
+    },
+    {
+      "author": "4d-for-ios",
+      "description": "4D for iOS Data Formatter",
+      "download_count": 24,
+      "download_url": "https://github.com/4d-for-ios/formatter-TextToImage/releases/download/0.0.1/formatter-TextToImage.zip",
+      "html_url": "https://github.com/4d-for-ios/formatter-TextToImage",
+      "image_url": "Specs/4d-for-ios-formatter/4d-for-ios/formatter-TextToImage/0.0.1/logo.png",
+      "name": "textToImage",
+      "stargazers_count": 0,
+      "stargazers_url": "https://api.github.com/repos/4d-for-ios/formatter-TextToImage/stargazers",
+      "version": "0.0.1"
+    },
+    {
+      "author": "4d-for-ios",
+      "description": "4D for iOS Data Formatter",
+      "download_count": 26,
+      "download_url": "https://github.com/4d-for-ios/formatter-TextToString/releases/download/0.0.1/formatter-TextToString.zip",
+      "html_url": "https://github.com/4d-for-ios/formatter-TextToString",
+      "image_url": "Specs/4d-for-ios-formatter/4d-for-ios/formatter-TextToString/0.0.1/logo.png",
+      "name": "textToString",
+      "stargazers_count": 0,
+      "stargazers_url": "https://api.github.com/repos/4d-for-ios/formatter-TextToString/stargazers",
+      "version": "0.0.1"
+    },
+    {
+      "author": "4d-for-ios",
+      "description": "4D for iOS Data Formatter",
+      "download_count": 31,
+      "download_url": "https://github.com/4d-for-ios/formatter-Url/releases/download/0.0.1/formatter-Url.zip",
+      "html_url": "https://github.com/4d-for-ios/formatter-Url",
+      "image_url": "Specs/4d-for-ios-formatter/4d-for-ios/formatter-Url/0.0.1/logo.png",
+      "name": "url",
+      "stargazers_count": 0,
+      "stargazers_url": "https://api.github.com/repos/4d-for-ios/formatter-Url/stargazers",
+      "version": "0.0.1"
+    },
+    {
+      "author": "4d-for-ios",
+      "description": "Download url and open activity form to choose what to do with the file",
+      "download_count": 10,
+      "download_url": "https://github.com/4d-for-ios/formatter-DownloadActivity/releases/download/0.0.2/formatter-DownloadActivity.zip",
+      "html_url": "https://github.com/4d-for-ios/formatter-DownloadActivity",
+      "image_url": "Specs/4d-for-ios-formatter/4d-for-ios/formatter-DownloadActivity/0.0.2/logo.png",
+      "name": "downloadActivity",
+      "stargazers_count": 0,
+      "stargazers_url": "https://api.github.com/repos/4d-for-ios/formatter-DownloadActivity/stargazers",
+      "version": "0.0.2"
+    }
+  ]
+}
