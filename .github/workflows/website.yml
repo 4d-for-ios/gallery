@@ -32,4 +32,4 @@ jobs:
         run: |
           brew install yq
           REPOSITORY_NAME=$(jq --raw-output '.repository.name' $GITHUB_EVENT_PATH)
-          .github/publish-gh-pages.sh "$GITHUB_REPOSITORY" "$GITHUB_ACTOR" "$REPOSITORY_NAME" "${{ secrets.GITHUB_PUBLISH_TOKEN }}" "$GITHUB_SHA"
+          .github/publish-gh-pages.sh "$GITHUB_REPOSITORY" "$GITHUB_ACTOR" "$REPOSITORY_NAME" "${{ secrets.PUBLISH_TOKEN }}" "$GITHUB_SHA"
