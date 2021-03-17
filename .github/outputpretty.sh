@@ -2,7 +2,7 @@
 currentDir="."
 input="$currentDir/.gallery-workflow.yml"
 
-topics=$(yq r .gallery-workflow.yml "topics" | sed "s/- //")
+topics=$(yq e '.topics' .gallery-workflow.yml | sed "s/- //")
 output="Specs" # todo: take from conf file
 status=0
 for topic in $topics
