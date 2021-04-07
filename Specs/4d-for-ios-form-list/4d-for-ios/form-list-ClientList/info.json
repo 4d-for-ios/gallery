@@ -57,8 +57,8 @@
   "network_count": 1,
   "node_id": "MDEwOlJlcG9zaXRvcnkyMjE0Njc1MzE=",
   "notifications_url": "https://api.github.com/repos/4d-for-ios/form-list-ClientList/notifications{?since,all,participating}",
-  "open_issues": 1,
-  "open_issues_count": 1,
+  "open_issues": 0,
+  "open_issues_count": 0,
   "organization": {
     "avatar_url": "https://avatars.githubusercontent.com/u/57483781?v=4",
     "events_url": "https://api.github.com/users/4d-for-ios/events{/privacy}",
