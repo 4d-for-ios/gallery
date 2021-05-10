@@ -3,6 +3,19 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS Detail Form template",
+      "download_count": 29,
+      "download_url": "https://github.com/4d-for-ios/form-detail-Cards/releases/download/0.0.2/form-detail-Cards.zip",
+      "html_url": "https://github.com/4d-for-ios/form-detail-Cards",
+      "image_url": "Specs/4d-for-ios-form-detail/4d-for-ios/form-detail-Cards/0.0.2/logo.png",
+      "name": "Cards Detail",
+      "preview_url": "Specs/4d-for-ios-form-detail/4d-for-ios/form-detail-Cards/0.0.2/preview.gif",
+      "stargazers_count": 0,
+      "stargazers_url": "https://api.github.com/repos/4d-for-ios/form-detail-Cards/stargazers",
+      "version": "0.0.2"
+    },
+    {
+      "author": "4d-for-ios",
+      "description": "4D for iOS Detail Form template",
       "download_count": 14,
       "download_url": "https://github.com/4d-for-ios/form-detail-Circle/releases/download/0.0.2/form-detail-Circle.zip",
       "html_url": "https://github.com/4d-for-ios/form-detail-Circle",
