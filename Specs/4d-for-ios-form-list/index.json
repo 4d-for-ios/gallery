@@ -237,19 +237,6 @@
     {
       "author": "4d-for-ios",
       "description": "4D Mobile List Form template",
-      "download_count": 4,
-      "download_url": "https://github.com/4d-for-ios/form-list-SlantedCollection/releases/download/0.0.4/form-list-SlantedCollection.zip",
-      "html_url": "https://github.com/4d-for-ios/form-list-SlantedCollection",
-      "image_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-SlantedCollection/0.0.4/logo.png",
-      "name": "Slanted Collection",
-      "preview_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-SlantedCollection/0.0.4/preview.gif",
-      "stargazers_count": 0,
-      "stargazers_url": "https://api.github.com/repos/4d-for-ios/form-list-SlantedCollection/stargazers",
-      "version": "0.0.4"
-    },
-    {
-      "author": "4d-for-ios",
-      "description": "4D Mobile List Form template",
       "download_count": 30,
       "download_url": "https://github.com/4d-for-ios/form-list-SmoothTable/releases/download/0.0.1/form-list-SmoothTable.zip",
       "html_url": "https://github.com/4d-for-ios/form-list-SmoothTable",
