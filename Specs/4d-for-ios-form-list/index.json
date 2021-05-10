@@ -337,19 +337,6 @@
       "stargazers_count": 0,
       "stargazers_url": "https://api.github.com/repos/4d-for-ios/form-list-VerticalCards/stargazers",
       "version": "0.0.1"
-    },
-    {
-      "author": "4d-for-ios",
-      "description": "4D Mobile List Form template",
-      "download_count": 8,
-      "download_url": "https://github.com/4d-for-ios/form-list-VisualTable/releases/download/0.0.2/form-list-VisualTable.zip",
-      "html_url": "https://github.com/4d-for-ios/form-list-VisualTable",
-      "image_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-VisualTable/0.0.2/logo.png",
-      "name": "Visual Table",
-      "preview_url": "Specs/4d-for-ios-form-list/4d-for-ios/form-list-VisualTable/0.0.2/preview.gif",
-      "stargazers_count": 0,
-      "stargazers_url": "https://api.github.com/repos/4d-for-ios/form-list-VisualTable/stargazers",
-      "version": "0.0.2"
     }
   ]
 }
