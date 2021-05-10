@@ -15,6 +15,18 @@
     {
       "author": "4d-for-ios",
       "description": "4D for iOS Data Formatter",
+      "download_count": 46,
+      "download_url": "https://github.com/4d-for-ios/formatter-BoolToImage/releases/download/0.0.1/formatter-BoolToImage.zip",
+      "html_url": "https://github.com/4d-for-ios/formatter-BoolToImage",
+      "image_url": "Specs/4d-for-ios-formatter/4d-for-ios/formatter-BoolToImage/0.0.1/logo.png",
+      "name": "BoolToImage",
+      "stargazers_count": 0,
+      "stargazers_url": "https://api.github.com/repos/4d-for-ios/formatter-BoolToImage/stargazers",
+      "version": "0.0.1"
+    },
+    {
+      "author": "4d-for-ios",
+      "description": "4D for iOS Data Formatter",
       "download_count": 35,
       "download_url": "https://github.com/4d-for-ios/formatter-Emoji/releases/download/0.0.1/formatter-Emoji.zip",
       "html_url": "https://github.com/4d-for-ios/formatter-Emoji",
@@ -46,6 +58,18 @@
       "name": "integerToString",
       "stargazers_count": 0,
       "stargazers_url": "https://api.github.com/repos/4d-for-ios/formatter-IntToString/stargazers",
+      "version": "0.0.1"
+    },
+    {
+      "author": "4d-for-ios",
+      "description": "4D for iOS Data Formatter",
+      "download_count": 29,
+      "download_url": "https://github.com/4d-for-ios/formatter-IntegerToImage/releases/download/0.0.1/formatter-IntegerToImage.zip",
+      "html_url": "https://github.com/4d-for-ios/formatter-IntegerToImage",
+      "image_url": "Specs/4d-for-ios-formatter/4d-for-ios/formatter-IntegerToImage/0.0.1/logo.png",
+      "name": "integerToImage",
+      "stargazers_count": 0,
+      "stargazers_url": "https://api.github.com/repos/4d-for-ios/formatter-IntegerToImage/stargazers",
       "version": "0.0.1"
     },
     {
