@@ -162,7 +162,7 @@
     "zipball_url": "https://api.github.com/repos/mesopelagique/form-login-SignInWithQRCode/zipball/0.0.1"
   },
   "releases_url": "https://api.github.com/repos/mesopelagique/form-login-SignInWithQRCode/releases{/id}",
-  "size": 398,
+  "size": 399,
   "ssh_url": "git@github.com:mesopelagique/form-login-SignInWithQRCode.git",
   "stargazers_count": 1,
   "stargazers_url": "https://api.github.com/repos/mesopelagique/form-login-SignInWithQRCode/stargazers",
