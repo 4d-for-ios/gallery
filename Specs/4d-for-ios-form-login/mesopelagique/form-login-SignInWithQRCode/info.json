@@ -86,7 +86,7 @@
   },
   "private": false,
   "pulls_url": "https://api.github.com/repos/mesopelagique/form-login-SignInWithQRCode/pulls{/number}",
-  "pushed_at": "2021-01-08T20:33:11Z",
+  "pushed_at": "2021-07-27T12:50:09Z",
   "release": {
     "assets": [
       {
@@ -175,7 +175,7 @@
   "teams_url": "https://api.github.com/repos/mesopelagique/form-login-SignInWithQRCode/teams",
   "temp_clone_token": "",
   "trees_url": "https://api.github.com/repos/mesopelagique/form-login-SignInWithQRCode/git/trees{/sha}",
-  "updated_at": "2021-01-21T16:50:06Z",
+  "updated_at": "2021-07-27T12:50:11Z",
   "url": "https://api.github.com/repos/mesopelagique/form-login-SignInWithQRCode",
   "visibility": "public",
   "watchers": 1,
