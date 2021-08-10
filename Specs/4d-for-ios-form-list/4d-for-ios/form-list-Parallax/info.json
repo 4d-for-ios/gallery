@@ -101,8 +101,10 @@
   },
   "permissions": {
     "admin": false,
+    "maintain": false,
     "pull": false,
-    "push": false
+    "push": false,
+    "triage": false
   },
   "private": false,
   "pulls_url": "https://api.github.com/repos/4d-for-ios/form-list-Parallax/pulls{/number}",
