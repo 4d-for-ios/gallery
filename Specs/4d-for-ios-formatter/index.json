@@ -88,6 +88,18 @@
       "author": "4d-for-ios",
       "description": "4D for iOS Data Formatter",
       "download_count": 1,
+      "download_url": "https://github.com/4d-for-ios/formatter-TextToString/releases/download/0.0.1/formatter-TextToString.zip",
+      "html_url": "https://github.com/4d-for-ios/formatter-TextToString",
+      "image_url": "Specs/4d-for-ios-formatter/4d-for-ios/formatter-TextToString/0.0.1/logo.png",
+      "name": "textToString",
+      "stargazers_count": 0,
+      "stargazers_url": "https://api.github.com/repos/4d-for-ios/formatter-TextToString/stargazers",
+      "version": "0.0.1"
+    },
+    {
+      "author": "4d-for-ios",
+      "description": "4D for iOS Data Formatter",
+      "download_count": 1,
       "download_url": "https://github.com/4d-for-ios/formatter-Url/releases/download/0.0.1/formatter-Url.zip",
       "html_url": "https://github.com/4d-for-ios/formatter-Url",
       "image_url": "Specs/4d-for-ios-formatter/4d-for-ios/formatter-Url/0.0.1/logo.png",
