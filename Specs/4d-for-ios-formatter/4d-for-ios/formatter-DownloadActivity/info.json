@@ -1,4 +1,5 @@
 {
+  "allow_forking": true,
   "archive_url": "https://api.github.com/repos/4d-for-ios/formatter-DownloadActivity/{archive_format}{/ref}",
   "archived": false,
   "assignees_url": "https://api.github.com/repos/4d-for-ios/formatter-DownloadActivity/assignees{/user}",
@@ -100,6 +101,7 @@
     "url": "https://api.github.com/users/4d-for-ios"
   },
   "parent": {
+    "allow_forking": true,
     "archive_url": "https://api.github.com/repos/4d-go-mobile/formatter-DownloadActivity/{archive_format}{/ref}",
     "archived": false,
     "assignees_url": "https://api.github.com/repos/4d-go-mobile/formatter-DownloadActivity/assignees{/user}",
@@ -252,6 +254,7 @@
   "releases_url": "https://api.github.com/repos/4d-for-ios/formatter-DownloadActivity/releases{/id}",
   "size": 26,
   "source": {
+    "allow_forking": true,
     "archive_url": "https://api.github.com/repos/4d-go-mobile/formatter-DownloadActivity/{archive_format}{/ref}",
     "archived": false,
     "assignees_url": "https://api.github.com/repos/4d-go-mobile/formatter-DownloadActivity/assignees{/user}",

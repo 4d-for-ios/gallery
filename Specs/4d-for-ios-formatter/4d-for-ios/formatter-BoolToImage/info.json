@@ -1,4 +1,5 @@
 {
+  "allow_forking": true,
   "archive_url": "https://api.github.com/repos/4d-for-ios/formatter-BoolToImage/{archive_format}{/ref}",
   "archived": false,
   "assignees_url": "https://api.github.com/repos/4d-for-ios/formatter-BoolToImage/assignees{/user}",
@@ -100,6 +101,7 @@
     "url": "https://api.github.com/users/4d-for-ios"
   },
   "parent": {
+    "allow_forking": true,
     "archive_url": "https://api.github.com/repos/4d-go-mobile/formatter-BoolToImage/{archive_format}{/ref}",
     "archived": false,
     "assignees_url": "https://api.github.com/repos/4d-go-mobile/formatter-BoolToImage/assignees{/user}",
@@ -287,6 +289,7 @@
   "releases_url": "https://api.github.com/repos/4d-for-ios/formatter-BoolToImage/releases{/id}",
   "size": 66,
   "source": {
+    "allow_forking": true,
     "archive_url": "https://api.github.com/repos/4d-go-mobile/formatter-BoolToImage/{archive_format}{/ref}",
     "archived": false,
     "assignees_url": "https://api.github.com/repos/4d-go-mobile/formatter-BoolToImage/assignees{/user}",
